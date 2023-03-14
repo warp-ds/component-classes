@@ -7,6 +7,7 @@ specifiers:
   cz-conventional-changelog: ^3.3.0
   esbuild: ^0.17.11
   semantic-release: ^19.0.5
+  typescript: ^4.9.5
 
 devDependencies:
   '@finn-no/browserslist-config': 3.0.0
@@ -15,6 +16,7 @@ devDependencies:
   cz-conventional-changelog: 3.3.0
   esbuild: 0.17.11
   semantic-release: 19.0.5
+  typescript: 4.9.5
 
 packages:
 
@@ -2976,7 +2978,6 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
-    optional: true
 
   /uglify-js/3.17.4:
     resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
