@@ -1,3 +1,10 @@
+# [1.0.0-alpha.3](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2023-03-14)
+
+
+### Bug Fixes
+
+* clean up what will be published to npm ([#5](https://github.com/warp-ds/component-classes/issues/5)) ([eed2f10](https://github.com/warp-ds/component-classes/commit/eed2f107506bde5a345dce7beaa27e685469173d))
+
 # [1.0.0-alpha.2](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2023-03-14)
 
 
