@@ -6,7 +6,7 @@
         "strictNullChecks": false,
         "emitDeclarationOnly": true,
         "declaration": true,
-        "outDir": "./",
+        "outDir": "./dist",
         "removeComments": false
     },
     "files": [

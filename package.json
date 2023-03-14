@@ -8,7 +8,10 @@
   "exports": {
     ".": "./index.js"
   },
+  "files": ["dist"],
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "commit": "cz",
     "semantic-release": "semantic-release"
   },
