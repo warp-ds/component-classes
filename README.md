@@ -39,10 +39,10 @@ pnpm install
 
 This project uses
 [Semantic Release](https://github.com/semantic-release/semantic-release) to
-automate package publishing when making changes to the `main` or `alpha` branch.
+automate package publishing when making changes to the `master` or `alpha` branch.
 
 It is recommended to branch off the `alpha` branch. Make sure `alpha` branch is 
-updated with the latest `main`. 
+updated with the latest `master`. 
 Follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 when making changes. When your changes are ready for pull request, this should be 
 opened against the `alpha` branch.

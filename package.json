@@ -8,6 +8,9 @@
   "exports": {
     "*": "./dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "commit": "cz",
     "build": "esbuild --bundle index.js --outdir=dist",
@@ -16,11 +19,11 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@finn-no/browserslist-config": "^3.0.0",
-    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "esbuild": "^0.17.11",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^19.0.5"
   },
   "config": {
     "commitizen": {
