@@ -8,7 +8,9 @@
   "exports": {
     ".": "./index.js"
   },
+  "types": "./index.d.ts",
   "scripts": {
+    "build": "tsc",
     "commit": "cz",
     "semantic-release": "semantic-release"
   },
