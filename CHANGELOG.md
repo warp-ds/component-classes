@@ -1,4 +1,16 @@
+# 1.0.0-alpha.1 (2023-03-14)
+
+
+### Bug Fixes
+
+* add build step for types ([#3](https://github.com/warp-ds/component-classes/issues/3)) ([128b8bf](https://github.com/warp-ds/component-classes/commit/128b8bfe5f2a7e033f4f796ff9abbc8c9b3d1da5))
+
+
+### Features
+
+* initial setup ([#2](https://github.com/warp-ds/component-classes/issues/2)) ([a4626dc](https://github.com/warp-ds/component-classes/commit/a4626dc507e26ca2b26526918cd394ca9b1f12fd))
+
 # 0.0.1 (2023-03-13)
 ### Creation
 Initial copy of [component classes from https://github.com/fabric-ds/css/blob/next/src/utils/component-classes/index.js](https://github.com/fabric-ds/css/blob/next/src/utils/component-classes/index.js).  
-For historical changes, see: [Changelog for @fabric-ds/css](https://github.com/fabric-ds/css/blob/next/CHANGELOG.md) 
+For historical changes, see: [Changelog for @fabric-ds/css](https://github.com/fabric-ds/css/blob/next/CHANGELOG.md)

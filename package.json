@@ -1,7 +1,7 @@
 {
   "name": "@warp-ds/css",
   "repository": "git@github.com:warp-ds/component-classes.git",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.1",
   "description": "WARP component classes",
   "main": "./index.js",
   "type": "module",
