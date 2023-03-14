@@ -1,3 +1,10 @@
+# [1.0.0-alpha.2](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2023-03-14)
+
+
+### Bug Fixes
+
+* change package name ([#4](https://github.com/warp-ds/component-classes/issues/4)) ([9f6e0fb](https://github.com/warp-ds/component-classes/commit/9f6e0fb0824baa4c5c06ff824435d0b728781916))
+
 # 1.0.0-alpha.1 (2023-03-14)
 
 
