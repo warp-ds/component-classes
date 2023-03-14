@@ -3,17 +3,13 @@
   "repository": "git@github.com:warp-ds/component-classes.git",
   "version": "0.0.1",
   "description": "WARP component classes",
-  "main": "dist/index.js",
+  "main": "./index.js",
   "type": "module",
   "exports": {
-    "*": "./index.js"
+    ".": "./index.js"
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "commit": "cz",
-    "build": "esbuild --bundle index.js --outdir=dist && tsc",
     "semantic-release": "semantic-release"
   },
   "license": "Apache-2.0",
@@ -22,7 +18,6 @@
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
     "cz-conventional-changelog": "^3.3.0",
-    "esbuild": "^0.17.11",
     "semantic-release": "^19.0.5",
     "typescript": "^4.9.5"
   },
