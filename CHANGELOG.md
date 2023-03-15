@@ -1,3 +1,10 @@
+# [1.0.0-alpha.4](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2023-03-15)
+
+
+### Bug Fixes
+
+* change master mentions to main ([#6](https://github.com/warp-ds/component-classes/issues/6)) ([3cc4731](https://github.com/warp-ds/component-classes/commit/3cc473137f6750b533578ed6853ff0d00171480f))
+
 # [1.0.0-alpha.3](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2023-03-14)
 
 
