@@ -216,64 +216,40 @@ export const prefix = {
 
 /*
     This is an attempt to rewrite f-button into a component-class structure. Comment after each line shows what classes they were tied to before. The button component itself shows which of these classes were combined to do all the states etc...
-    There are 2 kinds of unsupported classes in use here , one is all the colors that will be using the classes tied to the tokens instead (--i-). The other kind is stuff that we need to add supposrt for in warp-drive (like some arbitrary value support + animation stuff on the bottom)
+    There is one kinds of unsupported classes in use here , all the colors that will be using the classes tied to the tokens instead (--i-).
 */
 export const button = {
   // Buttontypes
-  button:
-    'py-10 px-14 text-blue-600 bg-white border-gray-300 border-2 hover:bg-blue-50 hover:border-blue-600 active:bg-blue-100 font-bold rounded-8 leading-24 max-w-max focus-ring justify-center transition-colors ease-in-out', // .button, .button--secondary, .button--default. using tailwind ease-in-out instead of fabric transition-timing-function: cubic-bezier(0.46, 0.03, 0.52, 0.96)
+  buttonSecondary:
+    'py-10 px-14 border-2 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out i-text-$color-button-secondary-text i-border-$color-button-secondary-border i-bg-$color-button-secondary-background hover:i-bg-$color-button-secondary-background-hover hover:i-border-$color-button-secondary-border-hover active:i-bg-$color-button-secondary-background-active', // .button, .button--secondary, .button--default. using tailwind ease-in-out instead of fabric transition-timing-function: cubic-bezier(0.46, 0.03, 0.52, 0.96)
   buttonPrimary:
-    'py-12 px-16 border-0 text-white bg-blue-600 hover:bg-blue-700 active:bg-blue-800;', // .button--primary, .button--cta
-  buttonTertiary:
-    'py-12 px-16 border-0 bg-transparent text-blue-600 hover:bg-blue-50 active:bg-blue-100;', // .button--tertiary, .button--flat
+    'py-12 px-16 border-0 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out i-text-$color-button-primary-text i-bg-$color-button-primary-background hover:i-bg-$color-button-primary-background-hover! active:i-bg-$color-button-primary-background-active', // .button--primary, .button--cta
+  buttonFlat:
+    'py-12 px-16 border-0! font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out i-bg-$color-button-quiet-background i-text-$color-button-quiet-text hover:i-bg-$color-button-quiet-background-hover active:i-bg-$color-button-quiet-background-active', // .button--quiet, .button--flat
   buttonDestructive:
-    'py-12 px-16 border-0 text-white bg-red-600 hover:bg-red-700 active:bg-red-800;', // .button--destructive
+    'py-12 px-16 border-0 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out i-bg-$color-button-negative-background i-text-$color-button-negative-text hover:i-bg-$color-button-negative-background-hover! active:i-bg-$color-button-negative-background-active!', // .button--destructive
   buttonDestructiveFlat:
-    'py-12 px-16 border-0 bg-transparent text-red-600 hover:bg-red-50 active:bg-red-100;', // .button--destructive-flat
-  buttonOrder:
-    'py-12 px-16 border-0 text-gray-900 bg-green-400 hover:bg-green-500 active:bg-green-600;', // .button--order
+    'py-12 px-16 border-0 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out i-bg-$color-button-negative-quiet-background! i-text-$color-button-negative-quiet-text! hover:i-bg-$color-button-negative-quiet-background-hover! active:i-bg-$color-button-negative-quiet-background-active!', // .button--destructive-flat
   buttonUtility:
-    'padding: 11px 15px text-gray-800 bg-white border-gray-300 border hover:bg-white hover:border-gray-400 active:bg-gray-100 rounded-4;', // .button--utility
+    'px-[15px] py-[11px] font-bold leading-24 max-w-max focusable justify-center transition-colors ease-in-out border rounded-4 i-text-$color-button-utility-text i-bg-$color-button-utility-background i-border-$color-button-utility-border hover:i-bg-$color-button-utility-background hover:i-border-$color-button-utility-border-hover! active:i-border-$color-button-utility-border-active!', // .button--utility
   buttonUtilityFlat:
-    'padding: 12px 16px bg-transparent text-gray-800 border-0 hover:bg-gray-100 active:border-gray-500 active:bg-gray-200 rounded-4;', // .button--utility-flat
+    'py-12 px-16 bg-transparent border-0 font-bold leading-24 max-w-max focusable justify-center transition-colors ease-in-out i-text-$color-button-utility-text i-bg-$color-button-utility-background hover:i-bg-$color-button-utility-background-hover rounded-4', // .button--utility-flat
   buttonPill:
-    'border-radius: 50% min-h-[44px] min-w-[44px] border-transparent p-4 text-bluegray-600 bg-transparent inline-flex items-center justify-center hover:bg-clip-padding', // .button--pill   missing:  hover:background-color: rgba(var(--f-blue-600-rgb), 0.1) , and:  hover:border-color: hsla(0, 0%, 100%, 0.4);
+    'font-bold leading-24 max-w-max focusable justify-center transition-colors ease-in-out rounded-full! min-h-[44px] min-w-[44px] border-0! p-4 i-text-$color-button-favorite-text i-bg-$color-button-favorite-background hover:i-bg-$color-button-favorite-background-hover acive:i-bg-$color-button-favorite-background-active inline-flex items-center justify-center hover:bg-clip-padding', // .button--pill   missing:  hover:background-color: rgba(var(--f-blue-600-rgb), 0.1) , and:  hover:border-color: hsla(0, 0%, 100%, 0.4);
   buttonLink:
-    'font-normal border-0 inline bg-transparent p-0 m-0 hover:active:underline hover:active:bg-transparent;', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
-  LinkButton:
-    'no-underline active:hover:no-underline inline-flex active:hover:inline-flex;', //  a.button /* Overrides for links pretending to be buttons */
+    'leading-24 max-w-max focusable ease-in-out inline i-text-$color-text-link hover:i-text-$color-text-link-hover hover:underline active:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
   // Sizestuff
-  buttonSmall: 'px-16 py-6 text-12 leading-16;', // .button--small
-  buttonSmallOverride: 'py-8', // .button--small.button--primary, .button--small.button--destructive, .button--small.button--destructive-flat, .button--small.button--order, .button--small.button--tertiary
+  buttonSmall: 'px-16 py-6 text-12 leading-16', // .button--small
+  buttonSmallOverride: 'py-8', // .button--small.button--primary, .button--small.button--destructive, .button--small.button--destructive-flat, .button--small.button--order, .button--small.button--quiet
   buttonSmallSecondary: 'py-6', // .button--small.button--secondary
   buttonSmallUtility: 'py-7 px-15', // .button--small.button--secondary
   buttonSmallButtonPill: 'p-4 min-h-32 min-w-32', // .button--small.button--pill
   buttonSmallButtonLink: 'p-0', // .button--small.button--link
   // Disabled
   buttonIsDisabled:
-    'bg-bluegray-300 border-bluegray-300 text-white bg-none cursor-default pointer-events-none;', // .button:disabled, .button--is-disabled
+    'py-10 px-14 font-bold leading-24 max-w-max focusable justify-center transition-colors ease-in-out i-bg-$color-button-disabled-background! i-text-$color-button-disabled-text! cursor-default pointer-events-none', // .button:disabled, .button--is-disabled
   // Progress indicator
   buttonInProgress:
-    'pointer-events-none border-transparent text-gray-500 !bg-[length:30px_30px] !bg-gray-100;', // .button--in-progress, a.button--in-progress:visited {
-  //  buttonInProgress also needs support for the following (add support to warp-drive):
-  //     background-image: linear-gradient(
-  //         135deg,
-  //         rgba(0, 0, 0, 0.05) 25%,
-  //         transparent 0,
-  //         transparent 50%,
-  //         rgba(0, 0, 0, 0.05) 0,
-  //         rgba(0, 0, 0, 0.05) 75%,
-  //         transparent 0,
-  //         transparent
-  //     ) !important;
-  //     animation: animate-inprogress 3s linear infinite;
-  //
-  // @keyframes animate-inprogress {
-  //     0% {
-  //         background-position: 0 0;
-  //     }
-  //     to {
-  //         background-position: 60px 0;
-  //     }
-  // }
+    'py-10 px-14 border-0 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out animate-inprogress i-text-$color-button-loading-text! pointer-events-none i-bg-$color-button-loading-background!', // .button--in-progress, a.button--in-progress:visited
 };
+
