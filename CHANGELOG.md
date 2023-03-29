@@ -1,3 +1,10 @@
+# [1.0.0-alpha.6](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2023-03-29)
+
+
+### Bug Fixes
+
+* button safelist ([#10](https://github.com/warp-ds/component-classes/issues/10)) ([d6de82a](https://github.com/warp-ds/component-classes/commit/d6de82ac608a02b9170463fd21f7adfb8642560c))
+
 # [1.0.0-alpha.5](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2023-03-29)
 
 
