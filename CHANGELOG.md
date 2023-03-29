@@ -1,3 +1,10 @@
+# [1.0.0-alpha.7](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2023-03-29)
+
+
+### Bug Fixes
+
+* refactor ([dabe83a](https://github.com/warp-ds/component-classes/commit/dabe83a2ac6dfcc007dfae20a4aa12bc02b396ee))
+
 # [1.0.0-alpha.6](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2023-03-29)
 
 
