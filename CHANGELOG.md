@@ -1,3 +1,10 @@
+# [1.0.0-alpha.5](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2023-03-29)
+
+
+### Features
+
+* **f-button:** Rewrite f-button to component classes ([#9](https://github.com/warp-ds/component-classes/issues/9)) ([aa5bba6](https://github.com/warp-ds/component-classes/commit/aa5bba65a5ee758b2cf998a7ff8895b3a85b880b))
+
 # [1.0.0-alpha.4](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2023-03-15)
 
 
