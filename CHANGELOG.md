@@ -1,3 +1,10 @@
+# [1.0.0-alpha.8](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.7...v1.0.0-alpha.8) (2023-03-31)
+
+
+### Bug Fixes
+
+* generate css classes ([#11](https://github.com/warp-ds/component-classes/issues/11)) ([91974f9](https://github.com/warp-ds/component-classes/commit/91974f900c8cb54a5b4bf1170c8a2e5f06125018))
+
 # [1.0.0-alpha.7](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2023-03-29)
 
 
