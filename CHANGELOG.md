@@ -1,3 +1,10 @@
+# [1.0.0-alpha.9](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2023-03-31)
+
+
+### Bug Fixes
+
+* publish dist ([ba02f98](https://github.com/warp-ds/component-classes/commit/ba02f98e4728efbeee11174cd289a379c3c20f10))
+
 # [1.0.0-alpha.8](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.7...v1.0.0-alpha.8) (2023-03-31)
 
 
