@@ -7,13 +7,13 @@
   "exports": {
     ".": "./index.js",
     "./common": "./dist/assets/common.css",
-    "./buttonSafelist": "./buttonSafelist.js"
+    "./classes": "./classes.js"
   },
   "types": "./index.d.ts",
   "files": [
     "index.js",
     "dist/assets",
-    "buttonSafelist.js"
+    "classes.js"
   ],
   "scripts": {
     "build": "tsc && pnpm build:css",
