@@ -1,3 +1,10 @@
+# [1.0.0-alpha.12](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.11...v1.0.0-alpha.12) (2023-04-03)
+
+
+### Features
+
+* add alert classes ([#13](https://github.com/warp-ds/component-classes/issues/13)) ([d26a7f0](https://github.com/warp-ds/component-classes/commit/d26a7f01d5b533a817b05f875b157656a73681a9))
+
 # [1.0.0-alpha.11](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.10...v1.0.0-alpha.11) (2023-04-03)
 
 
