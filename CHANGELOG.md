@@ -1,3 +1,10 @@
+# [1.0.0-alpha.13](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.12...v1.0.0-alpha.13) (2023-04-03)
+
+
+### Reverts
+
+* export only internal classes from classes.js ([b4517fc](https://github.com/warp-ds/component-classes/commit/b4517fce00c51ffcea58d48841c1cfaa598dd836))
+
 # [1.0.0-alpha.12](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.11...v1.0.0-alpha.12) (2023-04-03)
 
 
