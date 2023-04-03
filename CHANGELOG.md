@@ -1,3 +1,10 @@
+# [1.0.0-alpha.11](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.10...v1.0.0-alpha.11) (2023-04-03)
+
+
+### Bug Fixes
+
+* rename buttonSafelist.js to classes.js ([55c1d09](https://github.com/warp-ds/component-classes/commit/55c1d09df9f97066077d30c6021ac774fada0ebe))
+
 # [1.0.0-alpha.10](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2023-04-03)
 
 
