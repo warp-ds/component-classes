@@ -1,3 +1,10 @@
+# [1.0.0-alpha.10](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2023-04-03)
+
+
+### Bug Fixes
+
+* publish common.css to eik ([#12](https://github.com/warp-ds/component-classes/issues/12)) ([8ee2aeb](https://github.com/warp-ds/component-classes/commit/8ee2aeb53eb7476d75d2358af6d4a388d8dcf8da))
+
 # [1.0.0-alpha.9](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2023-03-31)
 
 
