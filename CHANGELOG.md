@@ -1,3 +1,10 @@
+# [1.0.0-alpha.14](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.13...v1.0.0-alpha.14) (2023-04-04)
+
+
+### Bug Fixes
+
+* update button classes ([568d3a7](https://github.com/warp-ds/component-classes/commit/568d3a7160f29a46593ba138a41590c1e2f9591f))
+
 # [1.0.0-alpha.13](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.12...v1.0.0-alpha.13) (2023-04-03)
 
 
