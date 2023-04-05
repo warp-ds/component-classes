@@ -20,7 +20,7 @@ export const pageIndicator = {
 };
 
 export const ribbon = {
-  base: 'py-4 px-8 border rounded-4 inline-flex last-child:mb-0',
+  base: 'py-4 px-8 border rounded-4 inline-flex last:mb-0',
   info: 'border-aqua-50 bg-aqua-50',
   success: 'border-green-100 bg-green-100',
   warning: 'border-yellow-100 bg-yellow-100',
@@ -51,7 +51,7 @@ export const modal = {
   modal:
     'f-modal rounded-8 mx-0 sm:mx-16 bg-white flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
   content:
-    'block overflow-y-auto overflow-x-hidden last-child:mb-0 flex-grow flex-shrink px-16 sm:px-32 relative',
+    'block overflow-y-auto overflow-x-hidden last:mb-0 flex-grow flex-shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end flex-shrink-0 px-16 sm:px-32',
   transitionTitle: 'transition-all duration-300',
   title:
@@ -64,7 +64,7 @@ export const modal = {
 };
 
 export const box = {
-  box: 'group block relative break-words last-child:mb-0 p-16 rounded-8', // relative here enables f-clickable
+  box: 'group block relative break-words last:mb-0 p-16 rounded-8', // relative here enables f-clickable
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // we target L and R separately because of TW's rules-order
 };
 
@@ -94,7 +94,7 @@ export const step = {
   stepLineIncomplete: 'bg-bluegray-300',
   stepLineComplete: 'bg-blue-600',
 
-  content: 'last-child:mb-0',
+  content: 'last:mb-0',
   contentVertical: 'row-span-2 pb-32',
   contentHorizontal: 'col-span-3 px-16 row-start-1 text-center',
 };
@@ -151,7 +151,7 @@ export const toast = {
   toastIconNegative: 'bg-red-300',
   toastIconNeutral: 'bg-gray-300',
   toastIconLoading: 'animate-bounce',
-  toastContent: 'self-center mr-8 py-4 last-child:mb-0',
+  toastContent: 'self-center mr-8 py-4 last:mb-0',
   toastClose: 'ml-auto p-8',
 };
 
@@ -165,7 +165,7 @@ export const tabs = {
 };
 
 export const tab = {
-  tab: 'grid f-grid items-center gap-8 focus-ring font-normal antialias p-16 pb-4 hover:underline f-tab',
+  tab: 'grid f-grid items-center gap-8 focusable font-normal antialias p-16 pb-4 hover:underline f-tab',
   tabActive: 'active-tab',
   tabContained: 'rounded-t-8',
   tabContainedActive: 'bg-aqua-50',
@@ -198,7 +198,7 @@ export const expandable = {
 };
 
 const prefixSuffixWrapperBase =
-  'absolute top-0 bottom-0 hover:text-aqua-400 flex justify-center items-center focus-ring ';
+  'absolute top-0 bottom-0 hover:text-aqua-400 flex justify-center items-center focusable ';
 
 export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
@@ -264,4 +264,18 @@ export const alert = {
   warningIcon: "i-text-$color-alert-warning-icon",
   info:  "i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border",
   infoIcon: "i-text-$color-alert-info-icon"
+}
+
+export const input = {
+  default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable',
+  optional: 'pl-8 font-normal text-14 i-text-$color-label-optional-text',
+  disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled i-text-$color-input-text-disabled pointer-events-none',
+  invalid: 'focusable i-border-$color-input-border-error i-text-$color-input-text-error',
+  readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
+  label: 'antialiased block relative text-14 font-bold pb-4 cursor-pointer',
+  labelValid: 'i-text-$color-label-text',
+  labelInvalid: 'i-text-$color-helptext-error-text',
+  helpText: 'text-12 mt-4 block',
+  helpTextValid: 'i-text-$color-helptext-text',
+  helpTextInvalid: 'i-text-$color-helptext-error-text'
 }
