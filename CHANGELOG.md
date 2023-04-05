@@ -1,3 +1,10 @@
+# [1.0.0-alpha.16](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.15...v1.0.0-alpha.16) (2023-04-05)
+
+
+### Features
+
+* add input classes ([#15](https://github.com/warp-ds/component-classes/issues/15)) ([b126e51](https://github.com/warp-ds/component-classes/commit/b126e5146adf9d349122e452466587862f12aeb1))
+
 # [1.0.0-alpha.15](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2023-04-05)
 
 
