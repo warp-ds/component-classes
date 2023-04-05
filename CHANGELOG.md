@@ -1,3 +1,10 @@
+# [1.0.0-alpha.15](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2023-04-05)
+
+
+### Bug Fixes
+
+* **alert:** remove top pt-4 and add min-w-16 class to alert icon ([#14](https://github.com/warp-ds/component-classes/issues/14)) ([5a6e43d](https://github.com/warp-ds/component-classes/commit/5a6e43de103b2c44d8651e0e8fe4aa4255cba093))
+
 # [1.0.0-alpha.14](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.13...v1.0.0-alpha.14) (2023-04-04)
 
 
