@@ -1,3 +1,10 @@
+# [1.0.0-alpha.17](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.16...v1.0.0-alpha.17) (2023-04-06)
+
+
+### Bug Fixes
+
+* add preflight ([6e61e58](https://github.com/warp-ds/component-classes/commit/6e61e5851a48e4c419dcae161af0ef448ba682b9))
+
 # [1.0.0-alpha.16](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.15...v1.0.0-alpha.16) (2023-04-05)
 
 
