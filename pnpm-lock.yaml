@@ -4,7 +4,7 @@ specifiers:
   '@eik/cli': ^2.0.22
   '@semantic-release/changelog': ^6.0.2
   '@semantic-release/git': ^10.0.1
-  '@warp-ds/uno': ^0.0.15
+  '@warp-ds/uno': ^1.0.0-alpha.5
   cz-conventional-changelog: ^3.3.0
   semantic-release: ^19.0.5
   typescript: ^4.9.5
@@ -15,7 +15,7 @@ devDependencies:
   '@eik/cli': 2.0.22
   '@semantic-release/changelog': 6.0.2_semantic-release@19.0.5
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-  '@warp-ds/uno': 0.0.15
+  '@warp-ds/uno': 1.0.0-alpha.5
   cz-conventional-changelog: 3.3.0
   semantic-release: 19.0.5
   typescript: 4.9.5
@@ -826,10 +826,6 @@ packages:
       unconfig: 0.3.7
     dev: true
 
-  /@unocss/core/0.49.8:
-    resolution: {integrity: sha512-00BXRcMn6ERIkWHM64g6Uv6YZ3GUR8HjrMAzJZdd+04WcG2xCOyen8k+yDCxslqL0YsLqXYyLsgFSunHfYWy8w==}
-    dev: true
-
   /@unocss/core/0.50.6:
     resolution: {integrity: sha512-WMIp8xr7YSlID2whqfRGLwagp59e6u4ckPACEpoDOW8sTeSPRZm54hxPhuWXD1SQuqcwHPMtM9nzGD8UOnqQxA==}
     dev: true
@@ -867,12 +863,6 @@ packages:
       ofetch: 1.0.1
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@unocss/preset-mini/0.49.8:
-    resolution: {integrity: sha512-iJEbunr8sPdvZkp/ncHL3853LobfMtn5l1yE+6MDr7kjiS9Teiopt+FkR2xSmv8nCcCp39gFT3mKtJ/sZVG61Q==}
-    dependencies:
-      '@unocss/core': 0.49.8
     dev: true
 
   /@unocss/preset-mini/0.50.6:
@@ -969,11 +959,11 @@ packages:
       - rollup
     dev: true
 
-  /@warp-ds/uno/0.0.15:
-    resolution: {integrity: sha512-zYzR08gl3KNr0lSMf8wfU9l1au1pfTWdLBC7s9O0H10IxP/cyiCYxYiAxfUik4lr2L/sdiL+eS6Dp0JIIdXQng==}
+  /@warp-ds/uno/1.0.0-alpha.5:
+    resolution: {integrity: sha512-8V6VuRmYujceUfYkbRkkQsu1EuLLQyRWfbLn9ehz962DXA+oJ4kSnjK12tdc2tNI/8EKs14Tl4c3X4e/d+1S/w==}
     dependencies:
-      '@unocss/core': 0.49.8
-      '@unocss/preset-mini': 0.49.8
+      '@unocss/core': 0.50.6
+      '@unocss/preset-mini': 0.50.6
     dev: true
 
   /JSONStream/1.3.5:
