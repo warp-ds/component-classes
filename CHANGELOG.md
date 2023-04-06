@@ -1,3 +1,10 @@
+# [1.0.0-alpha.18](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.17...v1.0.0-alpha.18) (2023-04-06)
+
+
+### Bug Fixes
+
+* bump uno ([d6a42ab](https://github.com/warp-ds/component-classes/commit/d6a42abd3711e8c5fcaa7150cd2568a59aa46429))
+
 # [1.0.0-alpha.17](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.16...v1.0.0-alpha.17) (2023-04-06)
 
 
