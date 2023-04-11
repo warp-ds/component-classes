@@ -1,3 +1,10 @@
+# [1.0.0-alpha.24](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.23...v1.0.0-alpha.24) (2023-04-11)
+
+
+### Bug Fixes
+
+* tokens for label ([5349d15](https://github.com/warp-ds/component-classes/commit/5349d15d58efcc195fe2588b2225a4a26bd21158))
+
 # [1.0.0-alpha.23](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.22...v1.0.0-alpha.23) (2023-04-11)
 
 
