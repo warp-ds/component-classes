@@ -1,7 +1,7 @@
 {
   "name": "@warp-ds/component-classes",
   "repository": "git@github.com:warp-ds/component-classes.git",
-  "version": "1.0.0-alpha.19",
+  "version": "1.0.0-alpha.20",
   "description": "WARP component classes",
   "type": "module",
   "exports": {
