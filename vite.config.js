@@ -7,7 +7,7 @@ export default () => {
   return {
     plugins: [
       uno({
-        presets: [presetWarp({ usePreflight: true })],
+        presets: [presetWarp()],
         mode: 'dist-chunk',
         safelist: classes,
       }),  
