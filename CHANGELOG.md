@@ -1,3 +1,10 @@
+# [1.0.0-alpha.21](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.20...v1.0.0-alpha.21) (2023-04-11)
+
+
+### Bug Fixes
+
+* remove preflight from common.css ([8941829](https://github.com/warp-ds/component-classes/commit/8941829fe7febedce9eaf1d974da7bb241ff0f9d))
+
 # [1.0.0-alpha.20](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.19...v1.0.0-alpha.20) (2023-04-11)
 
 
