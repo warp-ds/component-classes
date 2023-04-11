@@ -6,7 +6,7 @@
   "type": "module",
   "exports": {
     ".": "./index.js",
-    "./common": "./dist/assets/common.css",
+    "./components": "./dist/assets/components.css",
     "./classes": "./classes.js"
   },
   "types": "./index.d.ts",

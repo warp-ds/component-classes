@@ -17,7 +17,7 @@ export default () => {
         emptyOutDir: false,
         rollupOptions: {
             output: {
-              assetFileNames: `assets/common.[ext]`
+              assetFileNames: `assets/components.[ext]`
             }
         }
     }
