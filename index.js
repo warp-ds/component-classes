@@ -276,6 +276,6 @@ export const input = {
   labelValid: 'i-text-$color-label-text',
   labelInvalid: 'i-text-$color-label-text-negative',
   helpText: 'text-12 mt-4 block',
-  helpTextValid: 'i-text-$color-helptext-text',
-  helpTextInvalid: 'i-text-$color-helptext-error-text'
+  helpTextValid: 'i-text-$color-helptext-text-positive',
+  helpTextInvalid: 'i-text-$color-helptext-text-negative'
 }
