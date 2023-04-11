@@ -1,3 +1,10 @@
+# [1.0.0-alpha.19](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.18...v1.0.0-alpha.19) (2023-04-11)
+
+
+### Bug Fixes
+
+* update tokens ([4a64654](https://github.com/warp-ds/component-classes/commit/4a64654071e04e5f950c4f79c24923ca8958cd7f))
+
 # [1.0.0-alpha.18](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.17...v1.0.0-alpha.18) (2023-04-06)
 
 
