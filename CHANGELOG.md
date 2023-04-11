@@ -1,3 +1,10 @@
+# [1.0.0-alpha.23](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.22...v1.0.0-alpha.23) (2023-04-11)
+
+
+### Bug Fixes
+
+* rename common.css to components.css ([d40e525](https://github.com/warp-ds/component-classes/commit/d40e52563d9321c526969697b218e2483a906d0d))
+
 # [1.0.0-alpha.22](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.21...v1.0.0-alpha.22) (2023-04-11)
 
 
