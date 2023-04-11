@@ -274,7 +274,7 @@ export const input = {
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
   label: 'antialiased block relative text-14 font-bold pb-4 cursor-pointer',
   labelValid: 'i-text-$color-label-text',
-  labelInvalid: 'i-text-$color-helptext-error-text',
+  labelInvalid: 'i-text-$color-label-text-negative',
   helpText: 'text-12 mt-4 block',
   helpTextValid: 'i-text-$color-helptext-text',
   helpTextInvalid: 'i-text-$color-helptext-error-text'
