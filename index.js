@@ -252,7 +252,7 @@ export const alert = {
 export const input = {
   default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable',
   optional: 'pl-8 font-normal text-14 i-text-$color-label-optional-text',
-  disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled i-text-$color-input-text-disabled pointer-events-none',
+  disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
   invalid: 'focusable i-border-$color-input-border-error i-text-$color-input-text-error!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
 }
