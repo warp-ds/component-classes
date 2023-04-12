@@ -252,15 +252,21 @@ export const alert = {
 export const input = {
   default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable',
   optional: 'pl-8 font-normal text-14 i-text-$color-label-optional-text',
-  disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled i-text-$color-input-text-disabled pointer-events-none',
+  disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled i-text-$color-input-text-disabled pointer-events-none',
   invalid: 'focusable i-border-$color-input-border-error i-text-$color-input-text-error!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
-  label: 'antialiased block relative text-14 font-bold pb-4 cursor-pointer',
-  labelValid: 'i-text-$color-label-text',
-  labelInvalid: 'i-text-$color-label-text-negative',
-  helpText: 'text-12 mt-4 block',
-  helpTextValid: 'i-text-$color-helptext-text-positive',
-  helpTextInvalid: 'i-text-$color-helptext-text-negative'
+}
+
+export const label = {
+    label: 'antialiased block relative text-14 font-bold pb-4 cursor-pointer',
+    labelValid: 'i-text-$color-label-text',
+    labelInvalid: 'i-text-$color-label-text-negative',  
+}
+
+export const helpText = {
+    helpText: 'text-12 mt-4 block i-text-$color-helptext-text',
+    helpTextValid: 'i-text-$color-helptext-text-positive',
+    helpTextInvalid: 'i-text-$color-helptext-text-negative'
 }
 
 const prefixSuffixWrapperBase =
@@ -270,12 +276,12 @@ export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
-  label: `${input.label} pb-0 text-12`,
+  label: `${label} pb-0 text-12`,
 };
 
 export const prefix = {
   wrapper: prefixSuffixWrapperBase + 'left-0',
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
-  label: `${input.label} pb-0 text-secondary text-12`,
+  label: `${label} pb-0 text-secondary text-12`,
 };
