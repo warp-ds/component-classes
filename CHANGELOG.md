@@ -1,3 +1,10 @@
+# [1.0.0-alpha.26](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.25...v1.0.0-alpha.26) (2023-04-12)
+
+
+### Bug Fixes
+
+* restructure input classes ([22be29d](https://github.com/warp-ds/component-classes/commit/22be29d00c5f1ca4254b522b0a2fefdc48061654))
+
 # [1.0.0-alpha.25](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.24...v1.0.0-alpha.25) (2023-04-12)
 
 
