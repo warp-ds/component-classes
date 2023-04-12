@@ -1,3 +1,10 @@
+# [1.0.0-alpha.27](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.26...v1.0.0-alpha.27) (2023-04-12)
+
+
+### Bug Fixes
+
+* hover state ([5b8aa15](https://github.com/warp-ds/component-classes/commit/5b8aa1535535afd0049f71823c1f691653f11a1a))
+
 # [1.0.0-alpha.26](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.25...v1.0.0-alpha.26) (2023-04-12)
 
 
