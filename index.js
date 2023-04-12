@@ -204,14 +204,14 @@ export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
-  label: 'field-label pb-0 text-12',
+  label: `${input.label} pb-0 text-12`,
 };
 
 export const prefix = {
   wrapper: prefixSuffixWrapperBase + 'left-0',
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
-  label: 'field-label pb-0 text-secondary text-12',
+  label: `${input.label} pb-0 text-secondary text-12`,
 };
 
 /*
