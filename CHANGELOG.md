@@ -1,3 +1,11 @@
+# [1.0.0-alpha.25](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.24...v1.0.0-alpha.25) (2023-04-12)
+
+
+### Bug Fixes
+
+* add prefix and suffix label styling ([bc59059](https://github.com/warp-ds/component-classes/commit/bc5905913a09469f9dcf373f78774104848d079d))
+* add prefix and suffix label styling ([ed4423c](https://github.com/warp-ds/component-classes/commit/ed4423c397815d05839c92ee253432045d2a2d61))
+
 # [1.0.0-alpha.24](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.23...v1.0.0-alpha.24) (2023-04-11)
 
 
