@@ -197,23 +197,6 @@ export const expandable = {
   buttonInfo: 'hover:text-aqua-700 active:text-aqua-800',
 };
 
-const prefixSuffixWrapperBase =
-  'absolute top-0 bottom-0 hover:text-aqua-400 flex justify-center items-center focusable ';
-
-export const suffix = {
-  wrapper: prefixSuffixWrapperBase + 'right-0',
-  wrapperWithLabel: 'w-max pr-12',
-  wrapperWithIcon: 'w-40',
-  label: `${input.label} pb-0 text-12`,
-};
-
-export const prefix = {
-  wrapper: prefixSuffixWrapperBase + 'left-0',
-  wrapperWithLabel: 'w-max pl-12',
-  wrapperWithIcon: 'w-40',
-  label: `${input.label} pb-0 text-secondary text-12`,
-};
-
 /*
     This is an attempt to rewrite f-button into a component-class structure. Comment after each line shows what classes they were tied to before. The button component itself shows which of these classes were combined to do all the states etc...
     There is one kinds of unsupported classes in use here , all the colors that will be using the classes tied to the tokens instead (--i-).
@@ -279,3 +262,20 @@ export const input = {
   helpTextValid: 'i-text-$color-helptext-text-positive',
   helpTextInvalid: 'i-text-$color-helptext-text-negative'
 }
+
+const prefixSuffixWrapperBase =
+  'absolute top-0 bottom-0 hover:text-aqua-400 flex justify-center items-center focusable ';
+
+export const suffix = {
+  wrapper: prefixSuffixWrapperBase + 'right-0',
+  wrapperWithLabel: 'w-max pr-12',
+  wrapperWithIcon: 'w-40',
+  label: `${input.label} pb-0 text-12`,
+};
+
+export const prefix = {
+  wrapper: prefixSuffixWrapperBase + 'left-0',
+  wrapperWithLabel: 'w-max pl-12',
+  wrapperWithIcon: 'w-40',
+  label: `${input.label} pb-0 text-secondary text-12`,
+};
