@@ -183,18 +183,16 @@ export const buttonReset =
   'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block';
 
 export const expandable = {
-  expandable: 'f-expandable',
-  expandableInfo: 'bg-aqua-50',
-  expandableBox: 'py-0 px-0 ' + box.box,
+  expandable: 'will-change-height',
+  expandableTitle: 'i-text-$color-expandable-title-text',
+  expandableBox: 'i-bg-$color-expandable-background py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
-  chevron:
-    'inline-block align-middle transform transition-transform transition-gpu',
+  chevron: 'inline-block align-middle transform transition-transform transition-gpu i-text-$color-expandable-icon',
   chevronNonBox: 'relative left-8',
-  chevronBox: 'f-expandable-chevron absolute right-16',
+  chevronBox: 'absolute right-16',
   chevronExpanded: '-rotate-180',
   button: buttonReset + ' hover:underline focus:underline',
-  buttonBox: 'w-full text-left relative ' + box.box,
-  buttonInfo: 'hover:text-aqua-700 active:text-aqua-800',
+  buttonBox: 'hover:i-bg-$color-expandable-background-hover w-full text-left relative inline-flex! items-center ' + box.box,
 };
 
 /*
