@@ -1,3 +1,10 @@
+# [1.0.0-alpha.31](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.30...v1.0.0-alpha.31) (2023-04-13)
+
+
+### Bug Fixes
+
+* add optional to label ([b415d69](https://github.com/warp-ds/component-classes/commit/b415d696b5e9daa7d6c977f4702cba07ea7caa3f))
+
 # [1.0.0-alpha.30](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.29...v1.0.0-alpha.30) (2023-04-13)
 
 
