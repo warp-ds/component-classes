@@ -255,7 +255,9 @@ export const input = {
   invalid: 'focusable i-border-$color-input-border-error i-text-$color-input-text-error!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
   placeholder: 'placeholder:i-text-$color-text-placeholder',
-  wrapper: 'relative'
+  wrapper: 'relative',
+  suffix: 'pr-40',
+  prefix: 'pl-40'
 }
 
 export const label = {
