@@ -1,3 +1,10 @@
+# [1.0.0-alpha.28](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.27...v1.0.0-alpha.28) (2023-04-13)
+
+
+### Features
+
+* expandable ([#16](https://github.com/warp-ds/component-classes/issues/16)) ([0251cbc](https://github.com/warp-ds/component-classes/commit/0251cbceb8628c4af166acb0872a48664515883f))
+
 # [1.0.0-alpha.27](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.26...v1.0.0-alpha.27) (2023-04-12)
 
 
