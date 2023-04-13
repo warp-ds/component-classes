@@ -1,3 +1,10 @@
+# [1.0.0-alpha.30](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.29...v1.0.0-alpha.30) (2023-04-13)
+
+
+### Bug Fixes
+
+* add class for placeholder ([#18](https://github.com/warp-ds/component-classes/issues/18)) ([f1cdd74](https://github.com/warp-ds/component-classes/commit/f1cdd745582733ac13a286a2d6ab310e5f01943c))
+
 # [1.0.0-alpha.29](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.28...v1.0.0-alpha.29) (2023-04-13)
 
 
