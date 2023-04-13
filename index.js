@@ -69,32 +69,34 @@ export const box = {
 };
 
 export const step = {
-  stepVertical: 'step-v grid f-grid grid-flow-col gap-x-16',
-  stepVerticalLeft: 'step-v-l',
-  stepVerticalRight: 'step-v-r text-right',
-  stepHorizontal: 'step-h flex-1 grid f-grid gap-y-16 items-center',
+  step: 'group/step',
+  stepVertical: 'group/stepv grid-rows-[20px_auto] grid grid-flow-col gap-x-16',
+  stepVerticalLeft: 'grid-cols-[20px_1fr]',
+  stepVerticalRight: 'grid-cols-[1fr_20px] text-right',
+  stepHorizontal: ' group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
 
-  stepDot:
-    'rounded-full border-2 h-20 w-20 transition-colors duration-300',
+  stepDot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300',
   stepDotVertical: '',
   stepDotVerticalLeft: '',
   stepDotVerticalRight: 'col-start-2',
   stepDotHorizontal: 'row-start-2 justify-self-end',
 
-  stepDotActive: 'border-blue-600 bg-blue-600 text-blue-600',
-  stepDotComplete: 'border-blue-600 bg-blue-600 text-white',
-  stepDotIncomplete: 'border-bluegray-300 bg-white text-white',
+  stepDotActive: 'i-border-$color-step-indicator-handle-border-active i-bg-$color-step-indicator-handle-background-active i-text-$color-step-indicator-handle-background-active',
+  stepDotComplete: 'i-border-$color-step-indicator-handle-border-active i-bg-$color-step-indicator-handle-background-active i-text-$color-step-indicator-icon',
+  stepDotIncomplete: 'i-border-$color-step-indicator-handle-border i-bg-$color-step-indicator-handle-background i-text-$color-step-indicator-icon',
 
-  stepLine: 'step-line transition-colors duration-300',
+  stepLine: 'group-last/stepv:hidden transition-colors duration-300',
   stepLineVertical: 'w-2 h-full justify-self-center',
   stepLineVerticalLeft: '',
   stepLineVerticalRight: 'col-start-2',
   stepLineHorizontal: 'h-2 w-full row-start-2',
+  stepLineHorizontalRight: 'group-last/steph:bg-transparent',
+  stepLineHorizontalLeft: 'group-first/steph:bg-transparent',
 
-  stepLineIncomplete: 'bg-bluegray-300',
-  stepLineComplete: 'bg-blue-600',
+  stepLineIncomplete: 'i-bg-$color-step-indicator-track-background',
+  stepLineComplete: 'i-bg-$color-step-indicator-track-background-active',
 
-  content: 'last:mb-0',
+  content: 'last:mb-0 group-last/step:last:pb-0',
   contentVertical: 'row-span-2 pb-32',
   contentHorizontal: 'col-span-3 px-16 row-start-1 text-center',
 };
@@ -258,7 +260,7 @@ export const input = {
 export const label = {
     label: 'antialiased block relative text-14 font-bold pb-4 cursor-pointer',
     labelValid: 'i-text-$color-label-text',
-    labelInvalid: 'i-text-$color-label-text-negative',  
+    labelInvalid: 'i-text-$color-label-text-negative',
 }
 
 export const helpText = {
