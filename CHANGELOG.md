@@ -1,3 +1,10 @@
+# [1.0.0-alpha.32](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.31...v1.0.0-alpha.32) (2023-04-13)
+
+
+### Bug Fixes
+
+* add suffix and prefix classes for input ([daee4c5](https://github.com/warp-ds/component-classes/commit/daee4c568cf55ff26e3253e1145bf997dea17cb8))
+
 # [1.0.0-alpha.31](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.30...v1.0.0-alpha.31) (2023-04-13)
 
 
