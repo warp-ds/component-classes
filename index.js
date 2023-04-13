@@ -85,7 +85,7 @@ export const step = {
   stepDotComplete: 'i-border-$color-step-indicator-handle-border-active i-bg-$color-step-indicator-handle-background-active i-text-$color-step-indicator-icon',
   stepDotIncomplete: 'i-border-$color-step-indicator-handle-border i-bg-$color-step-indicator-handle-background i-text-$color-step-indicator-icon',
 
-  stepLine: 'group-last/stepv:hidden step-line transition-colors duration-300',
+  stepLine: 'group-last/stepv:hidden transition-colors duration-300',
   stepLineVertical: 'w-2 h-full justify-self-center',
   stepLineVerticalLeft: '',
   stepLineVerticalRight: 'col-start-2',
