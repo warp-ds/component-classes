@@ -253,6 +253,7 @@ export const input = {
   disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
   invalid: 'focusable i-border-$color-input-border-error i-text-$color-input-text-error!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
+  placeholder: 'i-text-$color-text-placeholder'
 }
 
 export const label = {
