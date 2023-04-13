@@ -1,3 +1,10 @@
+# [1.0.0-alpha.29](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.28...v1.0.0-alpha.29) (2023-04-13)
+
+
+### Features
+
+* steps ([#17](https://github.com/warp-ds/component-classes/issues/17)) ([aeb1f41](https://github.com/warp-ds/component-classes/commit/aeb1f41747750db8e9f557cf42a10fe42fe7f4a1))
+
 # [1.0.0-alpha.28](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.27...v1.0.0-alpha.28) (2023-04-13)
 
 
