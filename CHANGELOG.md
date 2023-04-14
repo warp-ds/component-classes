@@ -1,3 +1,10 @@
+# [1.0.0-alpha.33](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.32...v1.0.0-alpha.33) (2023-04-14)
+
+
+### Bug Fixes
+
+* suffix and prefix ([1287b84](https://github.com/warp-ds/component-classes/commit/1287b84139c9c46cb9243afa3a5378fe38e4b201))
+
 # [1.0.0-alpha.32](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.31...v1.0.0-alpha.32) (2023-04-13)
 
 
