@@ -69,8 +69,8 @@ export const box = {
   info: 'i-bg-$color-box-info-background',
   neutral: 'i-bg-$color-box-neutral-background',
   bordered: 'border-2 i-border-$color-box-bordered-border i-bg-$color-box-bordered-background',
-  infoClickable: 'hover:active:i-bg-$color-box-info-background-hover',
-  neutralClickable: 'hover:active:i-bg-$color-box-neutral-background-hover',
+  infoClickable: 'hover:i-bg-$color-box-info-background-hover active:i-bg-$color-box-info-background-hover',
+  neutralClickable: 'hover:i-bg-$color-box-neutral-background-hover active:i-bg-$color-box-neutral-background-hover',
   borderedClickable: 'hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover'
 };
 
