@@ -1,3 +1,10 @@
+# [1.0.0-alpha.34](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.33...v1.0.0-alpha.34) (2023-04-17)
+
+
+### Bug Fixes
+
+* Fix/add classes for box ([#19](https://github.com/warp-ds/component-classes/issues/19)) ([a922225](https://github.com/warp-ds/component-classes/commit/a922225636917f8cfd744155f7106f2f09ccaa3c))
+
 # [1.0.0-alpha.33](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.32...v1.0.0-alpha.33) (2023-04-14)
 
 
