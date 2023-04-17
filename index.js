@@ -64,8 +64,14 @@ export const modal = {
 };
 
 export const box = {
-  box: 'group block relative break-words last:mb-0 p-16 rounded-8', // relative here enables f-clickable
-  bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // we target L and R separately because of TW's rules-order
+  box: 'group block relative break-words last:mb-0 p-16 rounded-8', // Relative here enables w-clickable
+  bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
+  info: 'i-bg-$color-box-info-background',
+  neutral: 'i-bg-$color-box-neutral-background',
+  bordered: 'border-2 i-border-$color-box-bordered-border i-bg-$color-box-bordered-background',
+  infoClickable: 'hover:active:i-bg-$color-box-info-background-hover',
+  neutralClickable: 'hover:active:i-bg-$color-box-neutral-background-hover',
+  borderedClickable: 'hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover'
 };
 
 export const step = {
