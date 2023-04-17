@@ -1,3 +1,10 @@
+# [1.0.0-alpha.35](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.34...v1.0.0-alpha.35) (2023-04-17)
+
+
+### Bug Fixes
+
+* Separate active and hover in clickable box classes ([#20](https://github.com/warp-ds/component-classes/issues/20)) ([6af3e6d](https://github.com/warp-ds/component-classes/commit/6af3e6d7de01459b86100cfe90db23cd448b6458))
+
 # [1.0.0-alpha.34](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.33...v1.0.0-alpha.34) (2023-04-17)
 
 
