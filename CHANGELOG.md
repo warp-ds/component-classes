@@ -1,3 +1,10 @@
+# [1.0.0-alpha.37](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.36...v1.0.0-alpha.37) (2023-04-18)
+
+
+### Bug Fixes
+
+* remove unecessary class for textarea ([a3080e1](https://github.com/warp-ds/component-classes/commit/a3080e11c340a64c883b3c3e43ffb47c53472387))
+
 # [1.0.0-alpha.36](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.35...v1.0.0-alpha.36) (2023-04-18)
 
 
