@@ -1,3 +1,10 @@
+# [1.0.0-alpha.36](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.35...v1.0.0-alpha.36) (2023-04-18)
+
+
+### Bug Fixes
+
+* add missing classes for textarea ([baaa2d5](https://github.com/warp-ds/component-classes/commit/baaa2d5424d01d29ef5905b45f731ced6e23f6db))
+
 # [1.0.0-alpha.35](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.34...v1.0.0-alpha.35) (2023-04-17)
 
 
