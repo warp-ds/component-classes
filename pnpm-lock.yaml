@@ -4,7 +4,7 @@ specifiers:
   '@eik/cli': ^2.0.22
   '@semantic-release/changelog': ^6.0.2
   '@semantic-release/git': ^10.0.1
-  '@warp-ds/uno': ^1.0.0-alpha.5
+  '@warp-ds/uno': ^1.0.0-alpha.7
   cz-conventional-changelog: ^3.3.0
   semantic-release: ^19.0.5
   typescript: ^4.9.5
@@ -15,7 +15,7 @@ devDependencies:
   '@eik/cli': 2.0.22
   '@semantic-release/changelog': 6.0.2_semantic-release@19.0.5
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-  '@warp-ds/uno': 1.0.0-alpha.5
+  '@warp-ds/uno': 1.0.0-alpha.7
   cz-conventional-changelog: 3.3.0
   semantic-release: 19.0.5
   typescript: 4.9.5
@@ -959,8 +959,8 @@ packages:
       - rollup
     dev: true
 
-  /@warp-ds/uno/1.0.0-alpha.5:
-    resolution: {integrity: sha512-8V6VuRmYujceUfYkbRkkQsu1EuLLQyRWfbLn9ehz962DXA+oJ4kSnjK12tdc2tNI/8EKs14Tl4c3X4e/d+1S/w==}
+  /@warp-ds/uno/1.0.0-alpha.7:
+    resolution: {integrity: sha512-qBwABAeahAAblmrWXrAKupATVoCK0LbkOc4DMy4+fGgcw7zySM1f1MZSm83FOubm/3ZxgwCi2tEg3sn6IOe4jQ==}
     dependencies:
       '@unocss/core': 0.50.6
       '@unocss/preset-mini': 0.50.6
