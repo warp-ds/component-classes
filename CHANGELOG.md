@@ -1,3 +1,10 @@
+# [1.0.0-alpha.39](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.38...v1.0.0-alpha.39) (2023-04-19)
+
+
+### Bug Fixes
+
+* add classes for select ([ae1c14d](https://github.com/warp-ds/component-classes/commit/ae1c14d6d9d1dd61bbba65a23fb4e4623fe830bb))
+
 # [1.0.0-alpha.38](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.37...v1.0.0-alpha.38) (2023-04-19)
 
 
