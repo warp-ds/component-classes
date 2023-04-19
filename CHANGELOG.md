@@ -1,3 +1,10 @@
+# [1.0.0-alpha.38](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.37...v1.0.0-alpha.38) (2023-04-19)
+
+
+### Bug Fixes
+
+* **expandable:** move hover for background to expandableBox ([de699f4](https://github.com/warp-ds/component-classes/commit/de699f4dcd184c9403ef85a43b67e84e598e1896))
+
 # [1.0.0-alpha.37](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.36...v1.0.0-alpha.37) (2023-04-18)
 
 
