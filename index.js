@@ -256,7 +256,7 @@ export const alert = {
 }
 
 export const input = {
-  default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable',
+  default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable caret',
   textArea: 'min-h-[42] sm:min-h-[45]',
   disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
   invalid: 'focusable i-border-$color-input-border-error i-text-$color-input-text-error!',
@@ -265,6 +265,17 @@ export const input = {
   wrapper: 'relative',
   suffix: 'pr-40',
   prefix: 'pl-40'
+}
+
+export const select = {
+  default: 'block text-16 mb-0 leading-22 i-text-$color-select-text i-bg-$color-select-background i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active rounded-4 py-12 px-8 block border-1 w-full focusable appearance-none pr-32 cursor-pointer caret',
+  disabled: 'i-bg-$color-select-background-disabled i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-text-$color-select-text-disabled pointer-events-none',
+  invalid: 'focusable i-border-$color-select-border-negative',
+  readOnly: 'pl-0 bg-transparent border-0 pointer-events-none before:hidden',
+  wrapper: 'relative',
+  selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
+  chevron: 'absolute top-[30%] block right-0 bottom-0 w-32 h-full',
+  chevronDisabled: 'opacity-25',
 }
 
 export const label = {
