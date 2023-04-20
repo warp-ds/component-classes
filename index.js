@@ -279,8 +279,7 @@ export const select = {
 }
 
 export const label = {
-    label: 'antialiased block relative text-14 font-bold pb-4 cursor-pointer',
-    labelValid: 'i-text-$color-label-text',
+    label: 'antialiased block relative text-14 font-bold pb-4 cursor-pointer i-text-$color-label-text',
     labelInvalid: 'i-text-$color-label-text-negative',
     optional: 'pl-8 font-normal text-14 i-text-$color-label-optional-text',
 }
