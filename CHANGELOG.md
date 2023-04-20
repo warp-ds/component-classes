@@ -1,3 +1,10 @@
+# [1.0.0-alpha.40](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.39...v1.0.0-alpha.40) (2023-04-20)
+
+
+### Bug Fixes
+
+* remove labelValid ([97410cd](https://github.com/warp-ds/component-classes/commit/97410cd1ce50155bd3a721bababecf10c279dd72))
+
 # [1.0.0-alpha.39](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.38...v1.0.0-alpha.39) (2023-04-19)
 
 
