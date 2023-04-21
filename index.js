@@ -274,7 +274,7 @@ export const select = {
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none before:hidden',
   wrapper: 'relative',
   selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
-  chevron: 'absolute top-[30%] block right-0 bottom-0 w-32 h-full',
+  chevron: 'absolute top-[30%] block right-0 bottom-0 w-32 h-full i-text-$color-select-icon',
   chevronDisabled: 'opacity-25',
 }
 
