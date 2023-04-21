@@ -1,3 +1,10 @@
+# [1.0.0-alpha.43](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.42...v1.0.0-alpha.43) (2023-04-21)
+
+
+### Bug Fixes
+
+* use caret current ([7f681bf](https://github.com/warp-ds/component-classes/commit/7f681bfab57f2a26263887b75b9c329d6bab6f09))
+
 # [1.0.0-alpha.42](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.41...v1.0.0-alpha.42) (2023-04-21)
 
 
