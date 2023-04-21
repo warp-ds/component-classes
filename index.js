@@ -256,7 +256,7 @@ export const alert = {
 }
 
 export const input = {
-  default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable caret',
+  default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable caret-current',
   textArea: 'min-h-[42] sm:min-h-[45]',
   disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
   invalid: 'focusable i-border-$color-input-border-error i-text-$color-input-text-error!',
@@ -268,7 +268,7 @@ export const input = {
 }
 
 export const select = {
-  default: 'block text-16 mb-0 leading-22 i-text-$color-select-text i-bg-$color-select-background i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active rounded-4 py-12 px-8 block border-1 w-full focusable appearance-none pr-32 cursor-pointer caret',
+  default: 'block text-16 mb-0 leading-22 i-text-$color-select-text i-bg-$color-select-background i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active rounded-4 py-12 px-8 block border-1 w-full focusable appearance-none pr-32 cursor-pointer caret-current',
   disabled: 'i-bg-$color-select-background-disabled i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-text-$color-select-text-disabled pointer-events-none',
   invalid: 'focusable i-border-$color-select-border-negative',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none before:hidden',
