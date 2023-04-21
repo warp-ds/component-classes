@@ -1,3 +1,10 @@
+# [1.0.0-alpha.41](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.40...v1.0.0-alpha.41) (2023-04-21)
+
+
+### Bug Fixes
+
+* add icon color to chevron for select ([880c977](https://github.com/warp-ds/component-classes/commit/880c97786b81d03cfadc2177d647992e6be3de75))
+
 # [1.0.0-alpha.40](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.39...v1.0.0-alpha.40) (2023-04-20)
 
 
