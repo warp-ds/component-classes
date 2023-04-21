@@ -306,3 +306,10 @@ export const prefix = {
   wrapperWithIcon: 'w-40',
   label: `${label.label} pb-0 text-secondary text-12`,
 };
+
+export const breadcrumbs = {
+  wrapper: 'flex space-x-8',
+  text: 'i-text-$color-breadcrumbs-text',
+  link: 'i-text-$color-breadcrumbs-link-text',
+  separator: 'select-none i-text-$color-breadcrumbs-icon',
+}
