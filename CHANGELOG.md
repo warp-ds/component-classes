@@ -1,3 +1,10 @@
+# [1.0.0-alpha.42](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.41...v1.0.0-alpha.42) (2023-04-21)
+
+
+### Features
+
+* add breadcrumbs component classes ([#22](https://github.com/warp-ds/component-classes/issues/22)) ([28abf41](https://github.com/warp-ds/component-classes/commit/28abf418ab30d53e306fba8dd54368fe730bada3))
+
 # [1.0.0-alpha.41](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.40...v1.0.0-alpha.41) (2023-04-21)
 
 
