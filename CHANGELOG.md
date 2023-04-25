@@ -1,3 +1,10 @@
+# [1.0.0-alpha.44](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.43...v1.0.0-alpha.44) (2023-04-25)
+
+
+### Bug Fixes
+
+* add 'sr-only' class to breadcrumbs, button and card classes ([#23](https://github.com/warp-ds/component-classes/issues/23)) ([9d11665](https://github.com/warp-ds/component-classes/commit/9d116656ab3fa698876fb5c4658e2bf852e38220))
+
 # [1.0.0-alpha.43](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.42...v1.0.0-alpha.43) (2023-04-21)
 
 
