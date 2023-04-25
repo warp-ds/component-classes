@@ -121,6 +121,7 @@ export const card = {
     'f-card-outline absolute rounded-8 inset-0 transition-all border-2',
   cardOutlineUnselected: 'border-transparent',
   cardOutlineSelected: 'border-blue-600 hover:border-blue-700',
+  a11y: 'sr-only',
 };
 
 export const switchToggle = {
@@ -240,6 +241,7 @@ export const button = {
   // Progress indicator
   buttonInProgress:
     'py-10 px-14 border-0 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out animate-inprogress i-text-$color-button-loading-text! pointer-events-none i-bg-$color-button-loading-background!', // .button--in-progress, a.button--in-progress:visited
+  a11y: 'sr-only',
 };
 
 export const alert = {
@@ -312,4 +314,5 @@ export const breadcrumbs = {
   text: 'i-text-$color-breadcrumbs-text',
   link: 'i-text-$color-breadcrumbs-link-text',
   separator: 'select-none i-text-$color-breadcrumbs-icon',
+  a11y: 'sr-only',
 }
