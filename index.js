@@ -89,11 +89,11 @@ export const step = {
   stepDotHorizontal: 'row-start-2 justify-self-end',
 
   stepDotActive:
-    'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active i-text-$color-stepindicator-handle-background-active',
+    'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active',
   stepDotComplete:
-    'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active i-text-$color-stepindicator-icon',
+    'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active i-text-$color-stepindicator-handle-icon',
   stepDotIncomplete:
-    'i-border-$color-stepindicator-handle-border i-bg-$color-stepindicator-handle-background i-text-$color-stepindicator-icon',
+    'i-border-$color-stepindicator-handle-border i-bg-$color-stepindicator-handle-background',
 
   stepLine: 'group-last/stepv:hidden transition-colors duration-300',
   stepLineVertical: 'w-2 h-full justify-self-center',
