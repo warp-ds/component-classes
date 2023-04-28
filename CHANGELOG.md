@@ -1,3 +1,10 @@
+# [1.0.0-alpha.45](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.44...v1.0.0-alpha.45) (2023-04-28)
+
+
+### Bug Fixes
+
+* **stepindicator:** change classnames in step to stepindicator instead of step-indicator ([2178c8b](https://github.com/warp-ds/component-classes/commit/2178c8b88d92fbc81f28a9acded7992a5f6b5e10))
+
 # [1.0.0-alpha.44](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.43...v1.0.0-alpha.44) (2023-04-25)
 
 
