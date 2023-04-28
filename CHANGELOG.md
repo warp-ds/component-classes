@@ -1,3 +1,10 @@
+# [1.0.0-alpha.46](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.45...v1.0.0-alpha.46) (2023-04-28)
+
+
+### Bug Fixes
+
+* **stepindicator:** change to correct token for icon and remove unused classes ([1e7fc26](https://github.com/warp-ds/component-classes/commit/1e7fc26240e9883ee81370be856744b015ffcd67))
+
 # [1.0.0-alpha.45](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.44...v1.0.0-alpha.45) (2023-04-28)
 
 
