@@ -1,3 +1,10 @@
+# [1.0.0-alpha.47](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.46...v1.0.0-alpha.47) (2023-05-03)
+
+
+### Features
+
+* Add classes for Pill component ([#26](https://github.com/warp-ds/component-classes/issues/26)) ([bc7aefc](https://github.com/warp-ds/component-classes/commit/bc7aefc122a4fee590c2c0a1cc5acaf4bf77c9ba))
+
 # [1.0.0-alpha.46](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.45...v1.0.0-alpha.46) (2023-04-28)
 
 
