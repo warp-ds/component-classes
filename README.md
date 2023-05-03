@@ -9,6 +9,7 @@ The package includes component classes, such as:
 - slider
 - modal
 - box
+- pill
 - step
 - card
 - switchToggle
