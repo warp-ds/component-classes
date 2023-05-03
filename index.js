@@ -76,7 +76,7 @@ export const box = {
 
 export const pill = {
   pill: 'flex items-center',
-  button: 'inline-flex items-center py-8 focusable text-12 transition-all',
+  button: 'inline-flex items-center py-8 focus:focusable:focus text-12 transition-all',
   suggestion: 'i-bg-$color-pill-suggestion-background hover:i-bg-$color-pill-suggestion-background-hover active:i-bg-$color-pill-suggestion-background-active i-text-$color-pill-suggestion-text font-bold',
   filter: 'i-bg-$color-pill-filter-background hover:i-bg-$color-pill-filter-background-hover active:i-bg-$color-pill-filter-background-active i-text-$color-pill-filter-text',
   label: 'pl-12 rounded-l-full',
