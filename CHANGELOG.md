@@ -1,3 +1,10 @@
+# [1.0.0-alpha.48](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.47...v1.0.0-alpha.48) (2023-05-04)
+
+
+### Bug Fixes
+
+* **steps:** add class so that the icon is has the same color during animation ([5665951](https://github.com/warp-ds/component-classes/commit/56659516fd9ba574f22272c7821dd11f71f4c8c5))
+
 # [1.0.0-alpha.47](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.46...v1.0.0-alpha.47) (2023-05-03)
 
 
