@@ -1,3 +1,10 @@
+# [1.0.0-alpha.49](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.48...v1.0.0-alpha.49) (2023-05-04)
+
+
+### Features
+
+* add classes for ButtonGroup component  ([#27](https://github.com/warp-ds/component-classes/issues/27)) ([6214574](https://github.com/warp-ds/component-classes/commit/621457433d9208c4a90178e11d0c8fc153e4a79c))
+
 # [1.0.0-alpha.48](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.47...v1.0.0-alpha.48) (2023-05-04)
 
 
