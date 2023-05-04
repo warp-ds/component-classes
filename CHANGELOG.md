@@ -1,3 +1,10 @@
+# [1.0.0-alpha.50](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.49...v1.0.0-alpha.50) (2023-05-04)
+
+
+### Bug Fixes
+
+* Fixed double py classes in pill close button ([#30](https://github.com/warp-ds/component-classes/issues/30)) ([4eb559e](https://github.com/warp-ds/component-classes/commit/4eb559e5c92f05379a9f0091f7903b7e57ca992d))
+
 # [1.0.0-alpha.49](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.48...v1.0.0-alpha.49) (2023-05-04)
 
 
