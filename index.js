@@ -101,7 +101,7 @@ export const step = {
   stepDotHorizontal: 'row-start-2 justify-self-end',
 
   stepDotActive:
-    'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active',
+    'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active i-text-$color-stepindicator-handle-icon',
   stepDotComplete:
     'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active i-text-$color-stepindicator-handle-icon',
   stepDotIncomplete:
