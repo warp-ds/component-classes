@@ -1,3 +1,10 @@
+# [1.0.0-alpha.52](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.51...v1.0.0-alpha.52) (2023-05-05)
+
+
+### Bug Fixes
+
+* add new disabled classes to toggle ([#31](https://github.com/warp-ds/component-classes/issues/31)) ([0824aee](https://github.com/warp-ds/component-classes/commit/0824aee6446537393b9d55cd2ae4d666415606f6))
+
 # [1.0.0-alpha.51](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.50...v1.0.0-alpha.51) (2023-05-04)
 
 
