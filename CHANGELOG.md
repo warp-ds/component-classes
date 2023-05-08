@@ -1,3 +1,10 @@
+# [1.0.0-alpha.55](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.54...v1.0.0-alpha.55) (2023-05-08)
+
+
+### Bug Fixes
+
+* **buttongroup:** remove active border color token from non-outlined item ([#35](https://github.com/warp-ds/component-classes/issues/35)) ([1b661d6](https://github.com/warp-ds/component-classes/commit/1b661d6d1573ad49ec7984aac0a68673f38692e2))
+
 # [1.0.0-alpha.54](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.53...v1.0.0-alpha.54) (2023-05-08)
 
 
