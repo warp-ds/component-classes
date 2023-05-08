@@ -1,3 +1,10 @@
+# [1.0.0-alpha.57](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.56...v1.0.0-alpha.57) (2023-05-08)
+
+
+### Bug Fixes
+
+* rename segment-control to radio buttons ([#36](https://github.com/warp-ds/component-classes/issues/36)) ([8c25049](https://github.com/warp-ds/component-classes/commit/8c250493783936cd5a6d479d9f8a2fb550d1fda6))
+
 # [1.0.0-alpha.56](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.55...v1.0.0-alpha.56) (2023-05-08)
 
 
