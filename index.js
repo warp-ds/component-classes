@@ -275,7 +275,8 @@ export const buttonGroupItem = {
   outlinedHorizontal: '-mr-1 last:mr-0 first:rounded-lt-4 first:rounded-lb-4 last:rounded-rt-4 last:rounded-rb-4',
   outlinedVerticalResets: 'px-1 pt-1 last:pb-1 -mb-1 last:mb-0',
   outlinedHorizontalResets: 'py-1 pl-1 last:pr-1 -mr-1 last:mr-0',
-  selected: 'z-30 i-text-$color-buttongroup-utility-text-active! i-bg-$color-buttongroup-utility-background-active! hover:i-bg-$color-buttongroup-utility-background-active-hover! i-border-$color-buttongroup-utility-border-active',
+  outlinedSelected: 'i-border-$color-buttongroup-utility-border-active',
+  selected: 'z-30 i-text-$color-buttongroup-utility-text-active! i-bg-$color-buttongroup-utility-background-active! hover:i-bg-$color-buttongroup-utility-background-active-hover!',
 }
 
 export const alert = {
