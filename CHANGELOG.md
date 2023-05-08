@@ -1,3 +1,10 @@
+# [1.0.0-alpha.54](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.53...v1.0.0-alpha.54) (2023-05-08)
+
+
+### Bug Fixes
+
+* add utility/primary categories to buttongroup tokens ([#33](https://github.com/warp-ds/component-classes/issues/33)) ([5d9590d](https://github.com/warp-ds/component-classes/commit/5d9590d387bca9e9b8c6d0b4112bc199d774e649))
+
 # [1.0.0-alpha.53](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.52...v1.0.0-alpha.53) (2023-05-08)
 
 
