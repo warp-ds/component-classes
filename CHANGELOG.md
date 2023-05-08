@@ -1,3 +1,10 @@
+# [1.0.0-alpha.53](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.52...v1.0.0-alpha.53) (2023-05-08)
+
+
+### Bug Fixes
+
+* make it possible to use tokens for disabled state for radios ([#32](https://github.com/warp-ds/component-classes/issues/32)) ([aff9996](https://github.com/warp-ds/component-classes/commit/aff9996566ef5f6609748e37d80d35b50ad62bc3))
+
 # [1.0.0-alpha.52](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.51...v1.0.0-alpha.52) (2023-05-05)
 
 
