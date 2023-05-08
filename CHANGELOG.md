@@ -1,3 +1,10 @@
+# [1.0.0-alpha.56](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.55...v1.0.0-alpha.56) (2023-05-08)
+
+
+### Bug Fixes
+
+* **btngroup:** set active border color only on outlined items ([#37](https://github.com/warp-ds/component-classes/issues/37)) ([57e0a77](https://github.com/warp-ds/component-classes/commit/57e0a77951f970ed95282399e1e85cd27a22a568))
+
 # [1.0.0-alpha.55](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.54...v1.0.0-alpha.55) (2023-05-08)
 
 
