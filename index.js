@@ -269,13 +269,13 @@ export const buttonGroup = {
 }
 
 export const buttonGroupItem = {
-  wrapper: 'relative i-text-$color-buttongroup-text i-bg-$color-buttongroup-background hover:i-bg-$color-buttongroup-background-hover active:i-border-$color-buttongroup-border-active active:i-text-$color-buttongroup-text-active active:i-bg-$color-buttongroup-background-active',
-  outlined: 'border hover:z-30 i-border-$color-buttongroup-border hover:i-border-$color-buttongroup-border-hover active:i-border-$color-buttongroup-border-active',
+  wrapper: 'relative i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-border-$color-buttongroup-utility-border-active active:i-text-$color-buttongroup-utility-text-active active:i-bg-$color-buttongroup-utility-background-active',
+  outlined: 'border hover:z-30 i-border-$color-buttongroup-utility-border hover:i-border-$color-buttongroup-utility-border-hover active:i-border-$color-buttongroup-utility-border-active',
   outlinedVertical: '-mb-1 last:mb-0 first:rounded-lt-4 first:rounded-rt-4 last:rounded-lb-4 last:rounded-rb-4',
   outlinedHorizontal: '-mr-1 last:mr-0 first:rounded-lt-4 first:rounded-lb-4 last:rounded-rt-4 last:rounded-rb-4',
   outlinedVerticalResets: 'px-1 pt-1 last:pb-1 -mb-1 last:mb-0',
   outlinedHorizontalResets: 'py-1 pl-1 last:pr-1 -mr-1 last:mr-0',
-  selected: 'z-30 i-text-$color-buttongroup-text-active! i-bg-$color-buttongroup-background-active! hover:i-bg-$color-buttongroup-background-active-hover! i-border-$color-buttongroup-border-active',
+  selected: 'z-30 i-text-$color-buttongroup-utility-text-active! i-bg-$color-buttongroup-utility-background-active! hover:i-bg-$color-buttongroup-utility-background-active-hover! i-border-$color-buttongroup-utility-border-active',
 }
 
 export const alert = {
@@ -373,7 +373,7 @@ export const toggle = {
   radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-active-disabled',
   labelRadioColors: 'i-bg-$color-radio-background i-border-$color-radio-border',
   segmentControl: 'inline-flex relative font-bold rounded-8',
-  scLabel: 'peer-hover:i-bg-$color-buttongroup-background-hover peer-checked:i-text-$color-buttongroup-text-active peer-checked:i-bg-$color-buttongroup-background-active peer-checked:peer-hover:i-bg-$color-buttongroup-background-active-hover peer-checked:i-border-$color-buttongroup-border-active block relative text-14 font-bold pb-4 cursor-pointer i-text-$color-buttongroup-text text-center i-bg-$color-background border-2 i-border-$color-buttongroup-border py-10 px-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 ',
+  scLabel: 'peer-hover:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-active peer-checked:i-bg-$color-buttongroup-primary-background-active peer-checked:peer-hover:i-bg-$color-buttongroup-primary-background-active-hover peer-checked:i-border-$color-buttongroup-primary-border-active block relative text-14 font-bold pb-4 cursor-pointer i-text-$color-buttongroup-primary-text text-center i-bg-$color-background border-2 i-border-$color-buttongroup-primary-border py-10 px-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 ',
   scJustified: 'flex',
   scLabelJustified: 'grow-1 shrink-0 basis-auto',
   scLabelSmall: 'text-12 py-[5px]! px-[8px]!',
