@@ -269,7 +269,7 @@ export const buttonGroup = {
 }
 
 export const buttonGroupItem = {
-  wrapper: 'relative i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-border-$color-buttongroup-utility-border-active active:i-text-$color-buttongroup-utility-text-active active:i-bg-$color-buttongroup-utility-background-active',
+  wrapper: 'relative i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-text-$color-buttongroup-utility-text-active active:i-bg-$color-buttongroup-utility-background-active',
   outlined: 'border hover:z-30 i-border-$color-buttongroup-utility-border hover:i-border-$color-buttongroup-utility-border-hover active:i-border-$color-buttongroup-utility-border-active',
   outlinedVertical: '-mb-1 last:mb-0 first:rounded-lt-4 first:rounded-rt-4 last:rounded-lb-4 last:rounded-rb-4',
   outlinedHorizontal: '-mr-1 last:mr-0 first:rounded-lt-4 first:rounded-lb-4 last:rounded-rt-4 last:rounded-rb-4',
