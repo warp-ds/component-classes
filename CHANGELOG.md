@@ -1,3 +1,10 @@
+# [1.0.0-alpha.58](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.57...v1.0.0-alpha.58) (2023-05-09)
+
+
+### Bug Fixes
+
+* updated classes for radio buttons ([#38](https://github.com/warp-ds/component-classes/issues/38)) ([9d8d0e1](https://github.com/warp-ds/component-classes/commit/9d8d0e1911bc377d4bf892b137ae3f3b6c23d99d))
+
 # [1.0.0-alpha.57](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.56...v1.0.0-alpha.57) (2023-05-08)
 
 
