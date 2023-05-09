@@ -1,3 +1,10 @@
+# [1.0.0-alpha.59](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.58...v1.0.0-alpha.59) (2023-05-09)
+
+
+### Bug Fixes
+
+* **btngroup:** remove border-hover and background-active-hover classes ([#39](https://github.com/warp-ds/component-classes/issues/39)) ([8fb4cb4](https://github.com/warp-ds/component-classes/commit/8fb4cb409bbf62605ce231024ad970d38e4dcb9e))
+
 # [1.0.0-alpha.58](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.57...v1.0.0-alpha.58) (2023-05-09)
 
 
