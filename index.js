@@ -381,3 +381,8 @@ export const toggle = {
   icon: 'peer-checked:before:bg-center before:bg-[var(--x-form-check-mark)]',
   a11y: 'sr-only',
 };
+
+export const clickable = {
+  clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer', 
+  label: `px-12 py-8 ${label.label} cursor-pointer`, 
+}
