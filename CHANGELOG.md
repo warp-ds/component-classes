@@ -1,3 +1,11 @@
+# [1.0.0-alpha.61](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.60...v1.0.0-alpha.61) (2023-05-10)
+
+
+### Bug Fixes
+
+* add clickable classes ([#41](https://github.com/warp-ds/component-classes/issues/41)) ([b7d04b4](https://github.com/warp-ds/component-classes/commit/b7d04b4dd37dda108cba7f81904afd82bad125f7))
+* add radio checked class back ([#40](https://github.com/warp-ds/component-classes/issues/40)) ([0abb7f5](https://github.com/warp-ds/component-classes/commit/0abb7f50b61b7873a6ea771e2aa7c444c61bd709))
+
 # [1.0.0-alpha.60](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.59...v1.0.0-alpha.60) (2023-05-10)
 
 
