@@ -1,3 +1,10 @@
+# [1.0.0-alpha.60](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.59...v1.0.0-alpha.60) (2023-05-10)
+
+
+### Bug Fixes
+
+* radio checked class ([bd77028](https://github.com/warp-ds/component-classes/commit/bd77028a7daeb15d3c0ed98bb64f03b6fc7371fa))
+
 # [1.0.0-alpha.59](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.58...v1.0.0-alpha.59) (2023-05-09)
 
 
