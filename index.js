@@ -32,17 +32,21 @@ export const ribbon = {
 };
 
 export const slider = {
-  wrapper: 'f-slider relative w-full h-44 py-2',
-  track: 'track absolute bg-blue-200 h-4 top-20 rounded-4 w-full',
-  trackDisabled: 'pointer-events-none bg-gray-200',
+  wrapper: 'touch-pan-y relative w-full h-44 py-2',
+  track:
+    'absolute i-bg-$color-slider-track-background h-4 top-20 rounded-4 w-full ',
+  trackDisabled:
+    'pointer-events-none i-bg-$color-slider-track-background-disabled',
   activeTrack:
-    'larger-active-track absolute bg-blue-600 h-4 top-20 rounded-4',
-  activeTrackDisabled: 'bg-bluegray-300 pointer-events-none',
+    'absolute i-bg-$color-slider-track-background-active h-6 top-[19px] rounded-4',
+  activeTrackDisabled:
+    'i-bg-$color-slider-track-background-disabled pointer-events-none',
   thumb:
-    'f-thumb absolute w-24 h-24 bottom-10 rounded-4 outline-none',
-  thumbEnabled: 'shadow bg-blue-600 cursor-pointer',
+    'absolute i-shadow-$shadow-slider transition-shadow w-24 h-24 bottom-10 rounded-4 hover:i-bg-$color-slider-handle-background-hover active:i-bg-$color-slider-handle-background-active active:slider-handle-shadow-active hover:slider-handle-shadow-hover',
+  thumbEnabled:
+    'i-bg-$color-slider-handle-background cursor-pointer',
   thumbDisabled:
-    'bg-bluegray-300 cursor-disabled pointer-events-none',
+    'i-bg-$color-slider-handle-background-disabled cursor-disabled pointer-events-none',
 };
 
 export const modal = {
