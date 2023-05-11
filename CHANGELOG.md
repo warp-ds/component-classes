@@ -1,3 +1,10 @@
+# [1.0.0-alpha.63](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.62...v1.0.0-alpha.63) (2023-05-11)
+
+
+### Bug Fixes
+
+* rearrange color tokens to toggle a bit so support dead toggles ([#43](https://github.com/warp-ds/component-classes/issues/43)) ([54d4296](https://github.com/warp-ds/component-classes/commit/54d4296c37215493b86e0f5658d871df7fbe4daf))
+
 # [1.0.0-alpha.62](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.61...v1.0.0-alpha.62) (2023-05-11)
 
 
