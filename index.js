@@ -128,7 +128,7 @@ export const step = {
 };
 
 export const card = {
-  card: 'cursor-pointer overflow-hidden relative transition-all outline-none',
+  card: 'cursor-pointer overflow-hidden relative transition-all',
   cardShadow: 'rounded-8 i-shadow-$shadow-card hover:i-shadow-$shadow-card-hover hover:i-bg-$color-card-background-hover tap-highlight-transparent',
   cardFlat: 'border-2 rounded-4',
   cardFlatUnselected:
@@ -357,15 +357,15 @@ export const breadcrumbs = {
 }
 
 export const toggle = {
-  field: 'text-16 relative',
   wrapper: 'relative py-1',
-  deadToggleWrapper: 'h-20 w-20 pointer-events-none border-transparent',
+  deadToggleWrapper: 'h-20 w-20 pointer-events-none',
   input: 'peer',
   deadToggleInput: 'hidden',
   inputDisabled: 'pointer-events-none',
   focusable: 'peer-focus:focusable:focus peer-focus-visible:focusable:focus-visible peer-not-focus-visible:focusable:focus:not(:focus-visible)',
   focusableWithin: 'focus-within:focusable:focus focus-within:focusable:focus-visible',
   label: 'cursor-pointer text-16 i-text-$color-label-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
+  deadToggleLabel: '-mt-2',
   noContent: `before:content-['']`,
   indeterminate: `leading-[1.1] before:i-text-$color-text-inverted before:text-center before:font-bold before:content-['–'] peer-indeterminate:before:i-border-$color-checkbox-border-active peer-indeterminate:before:i-bg-$color-checkbox-background-active peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-active-hover`,
   labelDisabled: 'pointer-events-none',
