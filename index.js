@@ -360,7 +360,7 @@ export const toggle = {
   field: 'text-16 relative',
   wrapper: 'relative py-1',
   deadToggleWrapper: 'h-20 w-20 pointer-events-none border-transparent',
-  input: 'sr-only peer',
+  input: 'peer',
   deadToggleInput: 'hidden',
   inputDisabled: 'pointer-events-none',
   focusable: 'peer-focus:focusable:focus peer-focus-visible:focusable:focus-visible peer-not-focus-visible:focusable:focus:not(:focus-visible)',
