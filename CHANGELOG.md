@@ -1,3 +1,10 @@
+# [1.0.0-alpha.65](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.64...v1.0.0-alpha.65) (2023-05-11)
+
+
+### Bug Fixes
+
+* separate input peer and a11y ([#45](https://github.com/warp-ds/component-classes/issues/45)) ([82e8f72](https://github.com/warp-ds/component-classes/commit/82e8f72e42e1a90de3df4ddb1fcdd2a55ec42d87))
+
 # [1.0.0-alpha.64](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.63...v1.0.0-alpha.64) (2023-05-11)
 
 
