@@ -1,3 +1,10 @@
+# [1.0.0-alpha.66](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.65...v1.0.0-alpha.66) (2023-05-11)
+
+
+### Bug Fixes
+
+* misc changes for toggle ([#46](https://github.com/warp-ds/component-classes/issues/46)) ([9a90cbe](https://github.com/warp-ds/component-classes/commit/9a90cbe39e09f281dc02c5d1da7428225bb7dd7a))
+
 # [1.0.0-alpha.65](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.64...v1.0.0-alpha.65) (2023-05-11)
 
 
