@@ -1,3 +1,10 @@
+# [1.0.0-alpha.62](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.61...v1.0.0-alpha.62) (2023-05-11)
+
+
+### Features
+
+* **slider:** add warp classnames for slider ([43a057b](https://github.com/warp-ds/component-classes/commit/43a057bc314188d85daf8e11e717266e1bacc0fd))
+
 # [1.0.0-alpha.61](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.60...v1.0.0-alpha.61) (2023-05-10)
 
 
