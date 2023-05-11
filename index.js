@@ -132,7 +132,7 @@ export const card = {
   cardShadow: 'f-card rounded-8',
   cardFlat: 'border-2 rounded-4',
   cardFlatUnselected:
-    'border-bluegray-300 hover:bg-gray-50 hover:border-bluegray-400 active:border-bluegray-300',
+    'i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:bg-gray-50 hover:border-bluegray-400 active:border-bluegray-300',
   cardFlatSelected:
     'border-blue-600 bg-blue-50 hover:bg-blue-100 hover:border-blue-700 active:border-blue-600',
   cardSelected:
@@ -371,12 +371,14 @@ export const toggle = {
   checkboxChecked: 'peer-checked:before:i-border-$color-checkbox-border-active peer-checked:before:i-bg-$color-checkbox-background-active peer-checked:peer-hover:before:i-border-$color-checkbox-border-active-hover peer-checked:peer-hover:before:i-bg-$color-checkbox-background-active-hover',
   checkboxInvalid: 'before:i-bg-$color-checkbox-negative-background hover:before:i-bg-$color-checkbox-negative-background-hover peer-checked:before:i-border-$color-checkbox-negative-border-active hover:before:i-border-$color-checkbox-negative-border-hover peer-checked:before:i-bg-$color-checkbox-negative-background-active peer-checked:peer-hover:before:i-bg-$color-checkbox-negative-background-active-hover peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-active-hover',
   checkboxDisabled: 'before:i-bg-$color-checkbox-background-disabled before:i-border-$color-checkbox-border-disabled peer-checked:before:i-border-$color-checkbox-border-active-disabled peer-checked:before:i-bg-$color-checkbox-background-active-disabled',
-  labelCheckboxColors: 'i-bg-$color-checkbox-background i-border-$color-checkbox-border',
+  labelCheckboxBackground: 'i-bg-$color-checkbox-background',
+  labelCheckboxBorder: 'i-border-$color-checkbox-border',
   radio: 'before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:i-border-$color-radio-border-active-hover peer-hover:before:i-border-$color-radio-border-hover peer-hover:before:i-bg-$color-radio-background-hover',
   radioChecked: 'peer-checked:before:i-border-$color-radio-border-active',
   radioInvalid: 'before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border-active peer-checked:peer-hover:before:i-border-$color-radio-negative-border-active-hover ',
   radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-active-disabled',
-  labelRadioColors: 'i-bg-$color-radio-background i-border-$color-radio-border',
+  labelRadioBackground: 'i-bg-$color-radio-background',
+  labelRadioBorder: 'i-border-$color-radio-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
   radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-active peer-checked:i-bg-$color-buttongroup-primary-background-active peer-checked:i-border-$color-buttongroup-primary-border-active block relative text-14 font-bold pb-4 cursor-pointer i-text-$color-buttongroup-primary-text text-center i-bg-$color-background border-2 i-border-$color-buttongroup-primary-border py-10 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
