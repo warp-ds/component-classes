@@ -1,3 +1,10 @@
+# [1.0.0-alpha.64](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.63...v1.0.0-alpha.64) (2023-05-11)
+
+
+### Bug Fixes
+
+* card and toggle classes update ([#44](https://github.com/warp-ds/component-classes/issues/44)) ([87580d0](https://github.com/warp-ds/component-classes/commit/87580d05a9f19eef1fe90f0d532d24a8e37d3ff5))
+
 # [1.0.0-alpha.63](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.62...v1.0.0-alpha.63) (2023-05-11)
 
 
