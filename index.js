@@ -129,18 +129,18 @@ export const step = {
 
 export const card = {
   card: 'cursor-pointer overflow-hidden relative transition-all outline-none',
-  cardShadow: 'f-card rounded-8',
+  cardShadow: 'rounded-8 i-shadow-$shadow-card hover:i-shadow-$shadow-card-hover hover:i-bg-$color-card-background-hover tap-highlight-transparent',
   cardFlat: 'border-2 rounded-4',
   cardFlatUnselected:
-    'i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:bg-gray-50 hover:border-bluegray-400 active:border-bluegray-300',
+    'i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active',
   cardFlatSelected:
-    'border-blue-600 bg-blue-50 hover:bg-blue-100 hover:border-blue-700 active:border-blue-600',
+    'i-border-$color-card-flat-border-active i-bg-$color-card-flat-background-active hover:i-bg-$color-card-flat-background-active-hover active:i-border-$color-card-flat-border-active',
   cardSelected:
-    'border-blue-600 bg-blue-50 hover:bg-blue-100 hover:border-blue-700 active:border-blue-600',
+    'i-border-$color-card-border-active i-bg-$color-card-flat-background-active hover:i-bg-$color-card-flat-background-active-hover active:i-border-$color-card-border-active',
   cardOutline:
-    'f-card-outline absolute rounded-8 inset-0 transition-all border-2',
-  cardOutlineUnselected: 'border-transparent',
-  cardOutlineSelected: 'border-blue-600 hover:border-blue-700',
+    'active:i-border-$color-card-flat-border absolute rounded-8 inset-0 transition-all border-2',
+  cardOutlineUnselected: 'i-border-$color-card-border',
+  cardOutlineSelected: 'i-border-$color-card-border-active hover:i-border-$color-card-border-active-hover',
   a11y: 'sr-only',
 };
 
@@ -359,7 +359,9 @@ export const breadcrumbs = {
 export const toggle = {
   field: 'text-16 relative',
   wrapper: 'relative py-1',
+  deadToggleWrapper: 'h-20 w-20 pointer-events-none border-transparent',
   input: 'sr-only peer',
+  deadToggleInput: 'hidden',
   inputDisabled: 'pointer-events-none',
   focusable: 'peer-focus:focusable:focus peer-focus-visible:focusable:focus-visible peer-not-focus-visible:focusable:focus:not(:focus-visible)',
   focusableWithin: 'focus-within:focusable:focus focus-within:focusable:focus-visible',
@@ -390,6 +392,7 @@ export const toggle = {
 };
 
 export const clickable = {
-  clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer', 
+  clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer',
+  clickableNotToggle: 'inset-0 absolute',
   label: `px-12 py-8 ${label.label} cursor-pointer`, 
 }
