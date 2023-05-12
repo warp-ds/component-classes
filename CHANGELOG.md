@@ -1,3 +1,10 @@
+# [1.0.0-alpha.67](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.66...v1.0.0-alpha.67) (2023-05-12)
+
+
+### Features
+
+* **tabs:** add classes for tabs ([#47](https://github.com/warp-ds/component-classes/issues/47)) ([47abec0](https://github.com/warp-ds/component-classes/commit/47abec0dbea85947eb9e1b6ce7c1d46bfcae7fbb))
+
 # [1.0.0-alpha.66](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.65...v1.0.0-alpha.66) (2023-05-11)
 
 
