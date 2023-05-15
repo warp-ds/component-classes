@@ -1,3 +1,10 @@
+# [1.0.0-alpha.68](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.67...v1.0.0-alpha.68) (2023-05-15)
+
+
+### Bug Fixes
+
+* tokens fixes for card ([#48](https://github.com/warp-ds/component-classes/issues/48)) ([78d4281](https://github.com/warp-ds/component-classes/commit/78d428184f192450f11a9a0f2d9b26966946caae))
+
 # [1.0.0-alpha.67](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.66...v1.0.0-alpha.67) (2023-05-12)
 
 
