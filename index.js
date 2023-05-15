@@ -134,9 +134,9 @@ export const card = {
   cardFlatUnselected:
     'i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active',
   cardFlatSelected:
-    'i-border-$color-card-flat-border-active i-bg-$color-card-flat-background-active hover:i-bg-$color-card-flat-background-active-hover active:i-border-$color-card-flat-border-active',
+    'i-border-$color-card-flat-border-active i-bg-$color-card-flat-background-active hover:i-bg-$color-card-flat-background-active-hover hover:i-border-$color-card-flat-border-active-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active',
   cardSelected:
-    'i-border-$color-card-border-active i-bg-$color-card-flat-background-active hover:i-bg-$color-card-flat-background-active-hover active:i-border-$color-card-border-active',
+    'i-border-$color-card-border-active i-bg-$color-card-background-active hover:i-border-$color-card-border-active-hover hover:i-bg-$color-card-background-active-hover active:i-border-$color-card-border-active',
   cardOutline:
     'active:i-border-$color-card-flat-border absolute rounded-8 inset-0 transition-all border-2',
   cardOutlineUnselected: 'i-border-$color-card-border',
