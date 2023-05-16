@@ -1,3 +1,10 @@
+# [1.0.0-alpha.69](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.68...v1.0.0-alpha.69) (2023-05-16)
+
+
+### Bug Fixes
+
+* add pill button text color ([#49](https://github.com/warp-ds/component-classes/issues/49)) ([e1a74f4](https://github.com/warp-ds/component-classes/commit/e1a74f44d04bbef9d8bb69c8d7a344f3305d809c))
+
 # [1.0.0-alpha.68](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.67...v1.0.0-alpha.68) (2023-05-15)
 
 
