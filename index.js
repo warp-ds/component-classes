@@ -185,27 +185,24 @@ export const toast = {
 };
 
 export const tabs = {
-  wrapperUnderlined:
-    'border-b i-border-$color-tabs-border -mx-16 sm:mx-0 px-4 sm:px-0 mb-32 ',
-  wrapperContained: '',
   tabContainer: 'mx-auto max-w-screen-md w-full grid f-grid relative',
   wunderbar:
     'absolute i-border-$color-tabs-border-active -bottom-0 border-b-4 transition-all',
+  wrapperUnderlined:
+    'border-b i-border-$color-tabs-border -mx-16 sm:mx-0 px-4 sm:px-0 mb-32 ',
 };
 
 export const tab = {
-  tab: 'grid f-grid items-center gap-8 focusable font-normal antialias p-16 pb-8 border-b-4 i-border-$color-tabs-border hover:i-border-$color-tabs-border-hover',
-  tabActive: 'i-text-$color-tabs-icon-active',
-  tabContained: 'rounded-t-8',
-  tabContainedActive: 'bg-aqua-50', // missing tokens
-  icon: 'mx-auto ',
-  iconUnderlined: '',
-  iconUnderlinedActive: 'i-text-$color-tabs-icon-active',
+  tab: 'grid f-grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
+  tabActive: 'i-text-$color-tabs-text-active',
+  icon: 'mx-auto',
+  iconUnderlined: 'i-text-$color-tabs-text',
+  iconUnderlinedActive: 'i-text-$color-tabs-text-active',
   iconUnderlinedInactive: '', // missing tokens
-  contentUnderlined: 'font-bold content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
-  contentUnderlinedInactive: 'i-text-$color-tabs-text-inactive', // missing tokens
+  contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
+  contentUnderlinedInactive: '', // missing tokens
   contentUnderlinedActive: 'i-text-$color-tabs-text-active',
-  contentContainedActive: 'font-bold',
+  contentContainedActive: '',
 };
 
 export const buttonReset =
