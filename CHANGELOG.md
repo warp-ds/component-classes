@@ -1,3 +1,10 @@
+# [1.0.0-alpha.70](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.69...v1.0.0-alpha.70) (2023-05-16)
+
+
+### Bug Fixes
+
+* **tabs:** update classnames ([#50](https://github.com/warp-ds/component-classes/issues/50)) ([d555d0d](https://github.com/warp-ds/component-classes/commit/d555d0d11368b515c1c5bfc505be4d18f794fb56))
+
 # [1.0.0-alpha.69](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.68...v1.0.0-alpha.69) (2023-05-16)
 
 
