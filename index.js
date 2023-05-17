@@ -219,7 +219,7 @@ export const buttonReset =
 
 export const expandable = {
   expandable: 'will-change-height',
-  expandableTitle: 'i-text-$color-expandable-title-text',
+  expandableTitle: 'font-bold i-text-$color-expandable-title-text',
   expandableBox: 'i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
   chevron: 'inline-block align-middle transform transition-transform transition-gpu i-text-$color-expandable-icon',
