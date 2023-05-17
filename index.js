@@ -195,12 +195,9 @@ export const tabs = {
 export const tab = {
   tab: 'grid f-grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
   tabActive: 'i-text-$color-tabs-text-active',
-  icon: 'mx-auto',
-  iconUnderlined: 'i-text-$color-tabs-text',
+  icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
   iconUnderlinedActive: 'i-text-$color-tabs-text-active',
-  iconUnderlinedInactive: '', // missing tokens
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
-  contentUnderlinedInactive: '', // missing tokens
   contentUnderlinedActive: 'i-text-$color-tabs-text-active',
 };
 
