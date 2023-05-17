@@ -1,3 +1,10 @@
+# [1.0.0-alpha.72](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.71...v1.0.0-alpha.72) (2023-05-17)
+
+
+### Bug Fixes
+
+* add texts for links as buttons ([#52](https://github.com/warp-ds/component-classes/issues/52)) ([3e5ba36](https://github.com/warp-ds/component-classes/commit/3e5ba369b9d9bff6a635c2c8f112cc623b29fd0d))
+
 # [1.0.0-alpha.71](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.70...v1.0.0-alpha.71) (2023-05-17)
 
 
