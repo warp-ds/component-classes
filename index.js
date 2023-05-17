@@ -95,21 +95,17 @@ export const step = {
   stepVertical: 'group/stepv grid-rows-[20px_auto] grid grid-flow-col gap-x-16',
   stepVerticalLeft: 'grid-cols-[20px_1fr]',
   stepVerticalRight: 'grid-cols-[1fr_20px] text-right',
-  stepHorizontal:
-    'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
+  stepHorizontal: 'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
 
-  stepDot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300',
+  stepDot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300 i-text-$color-stepindicator-handle-icon',
   stepDotVertical: '',
   stepDotVerticalLeft: '',
   stepDotVerticalRight: 'col-start-2',
   stepDotHorizontal: 'row-start-2 justify-self-end',
 
-  stepDotActive:
-    'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active i-text-$color-stepindicator-handle-icon',
-  stepDotComplete:
-    'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active i-text-$color-stepindicator-handle-icon',
-  stepDotIncomplete:
-    'i-border-$color-stepindicator-handle-border i-bg-$color-stepindicator-handle-background',
+  stepDotActive: 'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active',
+  stepDotComplete: 'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active',
+  stepDotIncomplete: 'i-border-$color-stepindicator-handle-border i-bg-$color-stepindicator-handle-background',
 
   stepLine: 'group-last/stepv:hidden transition-colors duration-300',
   stepLineVertical: 'w-2 h-full justify-self-center',
@@ -195,14 +191,23 @@ export const tabs = {
 export const tab = {
   tab: 'grid f-grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
   tabActive: 'i-text-$color-tabs-text-active',
-  icon: 'mx-auto',
-  iconUnderlined: 'i-text-$color-tabs-text',
+  icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
   iconUnderlinedActive: 'i-text-$color-tabs-text-active',
-  iconUnderlinedInactive: '', // missing tokens
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
-  contentUnderlinedInactive: '', // missing tokens
   contentUnderlinedActive: 'i-text-$color-tabs-text-active',
-  contentContainedActive: '',
+};
+
+// Todo: Handle dynamic classnames
+export const gridLayout = {
+  cols1: 'grid-cols-1',
+  cols2: 'grid-cols-2',
+  cols3: 'grid-cols-3',
+  cols4: 'grid-cols-4',
+  cols5: 'grid-cols-5',
+  cols6: 'grid-cols-6',
+  cols7: 'grid-cols-7',
+  cols8: 'grid-cols-8',
+  cols9: 'grid-cols-9',
 };
 
 export const buttonReset =
@@ -210,7 +215,7 @@ export const buttonReset =
 
 export const expandable = {
   expandable: 'will-change-height',
-  expandableTitle: 'i-text-$color-expandable-title-text',
+  expandableTitle: 'font-bold i-text-$color-expandable-title-text',
   expandableBox: 'i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
   chevron: 'inline-block align-middle transform transition-transform transition-gpu i-text-$color-expandable-icon',
