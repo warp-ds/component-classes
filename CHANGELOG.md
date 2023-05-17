@@ -1,3 +1,10 @@
+# [1.0.0-alpha.71](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.70...v1.0.0-alpha.71) (2023-05-17)
+
+
+### Bug Fixes
+
+* add new class for link as button ([#51](https://github.com/warp-ds/component-classes/issues/51)) ([2aa9a0e](https://github.com/warp-ds/component-classes/commit/2aa9a0e6e3ccda541faae1e1b7f828722060812d))
+
 # [1.0.0-alpha.70](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.69...v1.0.0-alpha.70) (2023-05-16)
 
 
