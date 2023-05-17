@@ -258,6 +258,7 @@ export const button = {
   // Progress indicator
   buttonInProgress:
     'py-10 px-14 border-0 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out animate-inprogress i-text-$color-button-loading-text! pointer-events-none i-bg-$color-button-loading-background!', // .button--in-progress, a.button--in-progress:visited
+  linkAsButton: 'inline-block hover:no-underline',
   a11y: 'sr-only',
 };
 
