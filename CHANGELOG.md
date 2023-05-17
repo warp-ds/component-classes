@@ -1,3 +1,10 @@
+# [1.0.0-alpha.73](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.72...v1.0.0-alpha.73) (2023-05-17)
+
+
+### Features
+
+* **classnames:** Add grid layout + small fixes ([#54](https://github.com/warp-ds/component-classes/issues/54)) ([d1512e9](https://github.com/warp-ds/component-classes/commit/d1512e97cb1c87ba6e1da52a4290f4993e3995b8))
+
 # [1.0.0-alpha.72](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.71...v1.0.0-alpha.72) (2023-05-17)
 
 
