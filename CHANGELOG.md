@@ -1,3 +1,10 @@
+# [1.0.0-alpha.75](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.74...v1.0.0-alpha.75) (2023-05-19)
+
+
+### Bug Fixes
+
+* new classes for modal ([#56](https://github.com/warp-ds/component-classes/issues/56)) ([1f1d2f0](https://github.com/warp-ds/component-classes/commit/1f1d2f04a6f4714bd22c2d697e80de013875ea09))
+
 # [1.0.0-alpha.74](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.73...v1.0.0-alpha.74) (2023-05-19)
 
 
