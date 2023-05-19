@@ -1,3 +1,13 @@
+# [1.0.0-alpha.74](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.73...v1.0.0-alpha.74) (2023-05-19)
+
+
+### Bug Fixes
+
+* classes for modal ([#53](https://github.com/warp-ds/component-classes/issues/53)) ([7d8f76a](https://github.com/warp-ds/component-classes/commit/7d8f76aaa5fb963de0a2a00afada025eefa1b33c))
+* fix typo ([bcd98af](https://github.com/warp-ds/component-classes/commit/bcd98afe596d1b2ceb7e3a9c1cce6b8496f935ff))
+* fix typo again ([9699955](https://github.com/warp-ds/component-classes/commit/96999554f4be003656afd7a2c07f503b4cd4e627))
+* fix typo again ([afedb01](https://github.com/warp-ds/component-classes/commit/afedb01399ca1f983262f971b29aca188cc56270))
+
 # [1.0.0-alpha.73](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.72...v1.0.0-alpha.73) (2023-05-17)
 
 
