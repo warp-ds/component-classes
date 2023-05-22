@@ -42,9 +42,9 @@ export const slider = {
   activeTrackDisabled:
     'i-bg-$color-slider-track-background-disabled pointer-events-none',
   thumb:
-    'absolute i-shadow-$shadow-slider transition-shadow w-24 h-24 bottom-10 rounded-4 hover:i-bg-$color-slider-handle-background-hover active:i-bg-$color-slider-handle-background-active active:slider-handle-shadow-active hover:slider-handle-shadow-hover',
+    'absolute transition-shadow w-24 h-24 bottom-10 rounded-4',
   thumbEnabled:
-    'i-bg-$color-slider-handle-background cursor-pointer',
+    'border-2 focusable slider-handle-outline-none i-shadow-$shadow-slider cursor-pointer i-bg-$color-slider-handle-background i-border-$color-slider-handle-border hover:i-bg-$color-slider-handle-background-hover hover:i-border-$color-slider-handle-border-hover hover:slider-handle-shadow-hover active:i-bg-$color-slider-handle-background-active active:i-border-$color-slider-handle-border-active active:slider-handle-shadow-active focus:slider-handle-shadow-hover focus:i-border-$color-slider-handle-border-hover focus:i-bg-$color-slider-handle-background-hover',
   thumbDisabled:
     'i-bg-$color-slider-handle-background-disabled cursor-disabled pointer-events-none',
 };
