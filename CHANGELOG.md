@@ -1,3 +1,10 @@
+# [1.0.0-alpha.76](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.75...v1.0.0-alpha.76) (2023-05-22)
+
+
+### Bug Fixes
+
+* **slider:** update styling for hover, active and focus selectors ([#55](https://github.com/warp-ds/component-classes/issues/55)) ([bb5492e](https://github.com/warp-ds/component-classes/commit/bb5492e74b10126dbcfb6952f3ab6b04756f5b5f))
+
 # [1.0.0-alpha.75](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.74...v1.0.0-alpha.75) (2023-05-19)
 
 
