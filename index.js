@@ -391,7 +391,7 @@ export const toggle = {
   labelRadioBorder: 'i-border-$color-radio-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
-  radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-active peer-checked:i-bg-$color-buttongroup-primary-background-active peer-checked:i-border-$color-buttongroup-primary-border-active block relative text-14 font-bold pb-4 cursor-pointer i-text-$color-buttongroup-primary-text text-center i-bg-$color-background border-2 i-border-$color-buttongroup-primary-border py-10 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
+  radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-active peer-checked:i-bg-$color-buttongroup-primary-background-active peer-checked:i-border-$color-buttongroup-primary-border-active block relative text-14 font-bold cursor-pointer i-text-$color-buttongroup-primary-text text-center i-bg-$color-background border-2 i-border-$color-buttongroup-primary-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
   radioButtonsJustified: 'flex!',
   radioButtonsGroupJustified: 'grow-1 shrink-0 basis-auto',
   radioButtonsLabelSmall: 'text-12 py-[5px]! px-[8px]!',
@@ -402,5 +402,5 @@ export const toggle = {
 export const clickable = {
   clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer',
   clickableNotToggle: 'inset-0 absolute',
-  label: `px-12 py-8 ${label.label} cursor-pointer`, 
+  label: `px-12 ${label.label} py-8! cursor-pointer`, 
 }
