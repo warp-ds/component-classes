@@ -4,7 +4,7 @@ export const attention = {
     'i-bg-$color-tooltip-background i-shadow-$shadow-tooltip-shadow i-text-$color-tooltip-text rounded-4 py-6 px-8',
   callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
   popover:
-    'i-bg-$color-popover-background i-text-$color-popover-paragraph-text i-shadow-$shadow-popover rounded-8 p-16 filter',
+    'i-bg-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-medium',
   arrowBase:
     'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 transform',
   arrowDirection: {
