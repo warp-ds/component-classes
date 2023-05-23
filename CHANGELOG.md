@@ -1,3 +1,10 @@
+# [1.0.0-alpha.77](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.76...v1.0.0-alpha.77) (2023-05-23)
+
+
+### Bug Fixes
+
+* bottom padding fixes ([#59](https://github.com/warp-ds/component-classes/issues/59)) ([efb5c6b](https://github.com/warp-ds/component-classes/commit/efb5c6bb90c369dea9b47abe2478659665fc152d))
+
 # [1.0.0-alpha.76](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.75...v1.0.0-alpha.76) (2023-05-22)
 
 
