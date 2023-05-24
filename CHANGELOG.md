@@ -1,3 +1,10 @@
+# [1.0.0-alpha.80](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.79...v1.0.0-alpha.80) (2023-05-24)
+
+
+### Bug Fixes
+
+* use correct token for the check icon ([#61](https://github.com/warp-ds/component-classes/issues/61)) ([066a2ec](https://github.com/warp-ds/component-classes/commit/066a2ec1cb17b9b89e45682337e3443492f690d5))
+
 # [1.0.0-alpha.79](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.78...v1.0.0-alpha.79) (2023-05-24)
 
 
