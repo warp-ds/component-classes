@@ -141,22 +141,20 @@ export const toaster = {
   toasterContainer:
     'fixed fixed-ios-fix bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
   toaster:
-    'f-toaster grid f-grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
+    'grid f-grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
 };
 
 export const toast = {
   toastWrapper: 'relative overflow-hidden w-full',
   toast:
-    'toast flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
-  toastPositive: 'bg-green-50 border-green-300 text-green-800',
-  toastWarning: 'bg-yellow-50 border-yellow-300 text-yellow-800',
-  toastNegative: 'bg-red-50 border-red-300 text-red-800',
-  toastNeutral: 'bg-gray-50 border-gray-300 text-gray-800',
-  toastIcon: 'flex-shrink-0 rounded-full w-16 h-16 m-8',
-  toastIconPositive: 'bg-green-300',
-  toastIconWarning: 'bg-yellow-300',
-  toastIconNegative: 'bg-red-300',
-  toastIconNeutral: 'bg-gray-300',
+    'flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
+  toastPositive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
+  toastWarning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
+  toastNegative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
+  toastIcon: 'flex-shrink-0 rounded-full w-[16px] h-[16px] m-[8px] text-white',
+  toastIconPositive: 'i-text-$color-toast-positive-icon',
+  toastIconWarning: 'i-text-$color-toast-warning-icon',
+  toastIconNegative: 'i-bg-$color-toast-negative-icon',
   toastIconLoading: 'animate-bounce',
   toastContent: 'self-center mr-8 py-4 last:mb-0',
   toastClose: 'ml-auto p-8',
