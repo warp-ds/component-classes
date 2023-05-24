@@ -1,3 +1,10 @@
+# [1.0.0-alpha.83](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.82...v1.0.0-alpha.83) (2023-05-24)
+
+
+### Features
+
+* **toast:** add classes for toast ([#63](https://github.com/warp-ds/component-classes/issues/63)) ([c3df23a](https://github.com/warp-ds/component-classes/commit/c3df23a072d7b3efdd5c410be350037e075833b5))
+
 # [1.0.0-alpha.82](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.81...v1.0.0-alpha.82) (2023-05-24)
 
 
