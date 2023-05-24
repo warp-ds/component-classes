@@ -7,12 +7,10 @@ export const attention = {
     'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
   arrowBase:
     'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 transform',
-  arrowDirection: {
-    left: '-left-[8px]',
-    right: '-right-[8px]',
-    bottom: '-bottom-[8px]',
-    top: '-top-[8px]',
-  },
+  arrowDirectionLeft: '-left-[8px]',
+  arrowDirectionRight: '-right-[8px]',
+  arrowDirectionBottom: '-bottom-[8px]',
+  arrowDirectionRight: '-top-[8px]',
   arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
   arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
   arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
