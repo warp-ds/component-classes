@@ -157,7 +157,7 @@ export const toast = {
   toastIconNegative: 'i-bg-$color-toast-negative-icon',
   toastIconLoading: 'animate-bounce',
   toastContent: 'self-center mr-8 py-4 last:mb-0',
-  toastClose: 'ml-auto p-8',
+  toastClose: 'ml-auto p-[8px]',
 };
 
 export const tabs = {
