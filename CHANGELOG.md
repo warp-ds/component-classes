@@ -1,3 +1,43 @@
+# [1.0.0-alpha.82](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.81...v1.0.0-alpha.82) (2023-05-24)
+
+
+### Bug Fixes
+
+* **attention:** fix formatting issue ([#64](https://github.com/warp-ds/component-classes/issues/64)) ([30f8e7b](https://github.com/warp-ds/component-classes/commit/30f8e7b2b93a20718c993e5bb4bae4bfa324d412))
+
+
+### Features
+
+* **attention:** add attention classes ([#57](https://github.com/warp-ds/component-classes/issues/57)) ([b5c7dad](https://github.com/warp-ds/component-classes/commit/b5c7dad7d230d6770441a2b7dd4c5ca1a3f419e6))
+
+# [1.0.0-alpha.81](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.80...v1.0.0-alpha.81) (2023-05-24)
+
+
+### Bug Fixes
+
+* clean up ([#62](https://github.com/warp-ds/component-classes/issues/62)) ([157cbb1](https://github.com/warp-ds/component-classes/commit/157cbb105ccfe3fd2f0a5014c772d70777a7e877))
+
+# [1.0.0-alpha.80](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.79...v1.0.0-alpha.80) (2023-05-24)
+
+
+### Bug Fixes
+
+* use correct token for the check icon ([#61](https://github.com/warp-ds/component-classes/issues/61)) ([066a2ec](https://github.com/warp-ds/component-classes/commit/066a2ec1cb17b9b89e45682337e3443492f690d5))
+
+# [1.0.0-alpha.79](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.78...v1.0.0-alpha.79) (2023-05-24)
+
+
+### Bug Fixes
+
+* move out style variables ([#60](https://github.com/warp-ds/component-classes/issues/60)) ([7dcf590](https://github.com/warp-ds/component-classes/commit/7dcf5907e4b932d05e041cd73e1f35ebad655096))
+
+# [1.0.0-alpha.78](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.77...v1.0.0-alpha.78) (2023-05-24)
+
+
+### Bug Fixes
+
+* modal class fixes ([#58](https://github.com/warp-ds/component-classes/issues/58)) ([d79e58c](https://github.com/warp-ds/component-classes/commit/d79e58c436f7c997058d92f9e9040797ae5409fa))
+
 # [1.0.0-alpha.77](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.76...v1.0.0-alpha.77) (2023-05-23)
 
 
