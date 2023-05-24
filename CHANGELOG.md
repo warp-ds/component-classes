@@ -1,3 +1,15 @@
+# [1.0.0-alpha.82](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.81...v1.0.0-alpha.82) (2023-05-24)
+
+
+### Bug Fixes
+
+* **attention:** fix formatting issue ([#64](https://github.com/warp-ds/component-classes/issues/64)) ([30f8e7b](https://github.com/warp-ds/component-classes/commit/30f8e7b2b93a20718c993e5bb4bae4bfa324d412))
+
+
+### Features
+
+* **attention:** add attention classes ([#57](https://github.com/warp-ds/component-classes/issues/57)) ([b5c7dad](https://github.com/warp-ds/component-classes/commit/b5c7dad7d230d6770441a2b7dd4c5ca1a3f419e6))
+
 # [1.0.0-alpha.81](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.80...v1.0.0-alpha.81) (2023-05-24)
 
 
