@@ -1,10 +1,10 @@
 export const attention = {
   base: 'border-2 relative',
   tooltip:
-    'i-bg-$color-tooltip-background i-shadow-$shadow-tooltip-shadow i-text-$color-tooltip-text rounded-4 py-6 px-8',
+    'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip-shadow i-text-$color-tooltip-text rounded-4 py-6 px-8',
   callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
   popover:
-    'i-bg-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
+    'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
   arrowBase:
     'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 transform',
   arrowDirection: {
@@ -13,9 +13,9 @@ export const attention = {
     bottom: '-bottom-[8px]',
     top: '-top-[8px]',
   },
-  arrowTooltip: 'i-bg-$color-tooltip-background',
+  arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
   arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
-  arrowPopover: 'i-bg-$color-popover-background',
+  arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
 };
 
 export const pageIndicator = {
