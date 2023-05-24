@@ -1,3 +1,10 @@
+# [1.0.0-alpha.81](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.80...v1.0.0-alpha.81) (2023-05-24)
+
+
+### Bug Fixes
+
+* clean up ([#62](https://github.com/warp-ds/component-classes/issues/62)) ([157cbb1](https://github.com/warp-ds/component-classes/commit/157cbb105ccfe3fd2f0a5014c772d70777a7e877))
+
 # [1.0.0-alpha.80](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.79...v1.0.0-alpha.80) (2023-05-24)
 
 
