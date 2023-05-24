@@ -1,15 +1,21 @@
 export const attention = {
   base: 'border-2 relative',
   tooltip:
-    'bg-gray-700 border-gray-700 text-white rounded-4 py-6 px-8',
-  callout: 'bg-green-100 border-green-400 py-8 px-16 rounded-8',
+    'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
+  callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
   popover:
-    'bg-white border-white rounded-8 p-16 filter drop-shadow-20',
+    'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
   arrowBase:
-    'absolute h-14 w-14 border-2 border-b-0 border-r-0 transform',
-  arrowTooltip: 'bg-gray-700 border-gray-700',
-  arrowCallout: 'bg-green-100 border-green-400',
-  arrowPopover: 'bg-white border-white',
+    'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 transform',
+  arrowDirection: {
+    left: '-left-[8px]',
+    right: '-right-[8px]',
+    bottom: '-bottom-[8px]',
+    top: '-top-[8px]',
+  },
+  arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
+  arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
+  arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
 };
 
 export const pageIndicator = {
