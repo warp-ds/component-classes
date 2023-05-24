@@ -1,3 +1,10 @@
+# [1.0.0-alpha.79](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.78...v1.0.0-alpha.79) (2023-05-24)
+
+
+### Bug Fixes
+
+* move out style variables ([#60](https://github.com/warp-ds/component-classes/issues/60)) ([7dcf590](https://github.com/warp-ds/component-classes/commit/7dcf5907e4b932d05e041cd73e1f35ebad655096))
+
 # [1.0.0-alpha.78](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.77...v1.0.0-alpha.78) (2023-05-24)
 
 
