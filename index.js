@@ -14,6 +14,7 @@ export const attention = {
   arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
   arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
   arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
+  content: 'last:mb-0',
 };
 
 export const pageIndicator = {
