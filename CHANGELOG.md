@@ -1,3 +1,10 @@
+# [1.0.0-alpha.86](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.85...v1.0.0-alpha.86) (2023-05-25)
+
+
+### Bug Fixes
+
+* **attention:** add class for margin bottom for children ([#67](https://github.com/warp-ds/component-classes/issues/67)) ([1b8c260](https://github.com/warp-ds/component-classes/commit/1b8c260d9679f2e6f74d39b17fcefeecb8e38acb))
+
 # [1.0.0-alpha.85](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.84...v1.0.0-alpha.85) (2023-05-25)
 
 
