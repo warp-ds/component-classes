@@ -1,3 +1,10 @@
+# [1.0.0-alpha.84](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.83...v1.0.0-alpha.84) (2023-05-25)
+
+
+### Bug Fixes
+
+* Warpified component classes for Switch component ([#65](https://github.com/warp-ds/component-classes/issues/65)) ([f21a30d](https://github.com/warp-ds/component-classes/commit/f21a30d72238eda5e424914ce6099b9720c5e4b6))
+
 # [1.0.0-alpha.83](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.82...v1.0.0-alpha.83) (2023-05-24)
 
 
