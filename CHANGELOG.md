@@ -1,3 +1,10 @@
+# [1.0.0-alpha.85](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.84...v1.0.0-alpha.85) (2023-05-25)
+
+
+### Features
+
+* add classes for combobox ([#66](https://github.com/warp-ds/component-classes/issues/66)) ([cf0a144](https://github.com/warp-ds/component-classes/commit/cf0a144d943f29717aae743b5901b6a35f3cf46c))
+
 # [1.0.0-alpha.84](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.83...v1.0.0-alpha.84) (2023-05-25)
 
 
