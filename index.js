@@ -233,7 +233,7 @@ export const button = {
   buttonPill:
     'font-bold leading-24 max-w-max focusable justify-center transition-colors ease-in-out rounded-full! min-h-[44px] min-w-[44px] border-0! p-4 i-text-$color-button-pill-icon hover:i-text-$color-button-pill-icon-hover active:i-text-$color-button-pill-icon-active i-bg-$color-button-pill-background hover:i-bg-$color-button-pill-background-hover acive:i-bg-$color-button-pill-background-active inline-flex items-center justify-center hover:bg-clip-padding', // .button--pill   missing:  hover:background-color: rgba(var(--f-blue-600-rgb), 0.1) , and:  hover:border-color: hsla(0, 0%, 100%, 0.4);
   buttonLink:
-    'leading-24 max-w-max focusable ease-in-out inline i-text-$color-text-link hover:i-text-$color-text-link-hover hover:underline active:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
+    'leading-24 max-w-max focusable ease-in-out inline i-text-$color-text-link active:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
   // Sizestuff
   buttonSmall: 'px-16 py-6 text-12 leading-16', // .button--small
   buttonSmallOverride: 'py-8', // .button--small.button--primary, .button--small.button--destructive, .button--small.button--destructive-flat, .button--small.button--order, .button--small.button--quiet
@@ -405,4 +405,14 @@ export const clickable = {
   clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer',
   clickableNotToggle: 'inset-0 absolute',
   label: `px-12 ${label.label} py-8! cursor-pointer`, 
+}
+
+export const combobox = {
+  wrapper: 'relative',
+  combobox: 'absolute left-0 right-0 pb-8 rounded-8 i-bg-$color-background-interactive shadow-medium',
+  textMatch: 'font-bold',
+  listbox: 'm-0 p-0 select-none list-none',
+  option: 'block cursor-pointer p-8 hover:i-bg-$color-background-interactive-hover',
+  optionSelected: 'i-bg-$color-background-interactive-selected',
+  a11y: 'sr-only',
 }
