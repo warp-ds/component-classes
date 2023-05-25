@@ -127,18 +127,18 @@ export const card = {
 };
 
 export const switchToggle = {
-  label: 'block relative h-24 w-44 cursor-pointer f-switch',
+  switch: 'tap-highlight-transparent',
+  label: 'block relative h-24 w-44 cursor-pointer group',
   labelDisabled: 'pointer-events-none',
-  switchTrack:
-    'absolute h-full w-full rounded-full transition-colors',
-  switchTrackSelected: 'bg-blue-600 f-track-selected',
-  switchTrackUnselected: 'bg-gray-300 f-track-unselected',
-  switchTrackDisabled: 'bg-bluegray-200',
-  switchThumb:
-    'absolute transition-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
-  switchThumbSelected: 'f-switch-selected',
-  switchThumbNotDisabled: 'bg-white shadow',
-  switchThumbDisabled: 'bg-bluegray-300',
+  track: 'absolute h-full w-full rounded-full transition-colors',
+  trackActive: 'i-bg-$color-switch-track-background-active group-hover:i-bg-$color-switch-track-background-active-hover',
+  trackInactive: 'i-bg-$color-switch-track-background group-hover:i-bg-$color-switch-track-background-hover',
+  trackDisabled: 'i-bg-$color-switch-track-background-disabled',
+  handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
+  handleSelected: 'translate-x-20',
+  handleNotDisabled: 'i-bg-$color-switch-handle-background shadow-small',
+  handleDisabled: 'i-bg-$color-switch-handle-background-disabled',
+  a11y: 'sr-only',
 };
 
 export const toaster = {
