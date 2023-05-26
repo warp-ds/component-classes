@@ -1,3 +1,10 @@
+# [1.0.0-alpha.87](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.86...v1.0.0-alpha.87) (2023-05-26)
+
+
+### Bug Fixes
+
+* **attention:** update arrow border ([#68](https://github.com/warp-ds/component-classes/issues/68)) ([752c949](https://github.com/warp-ds/component-classes/commit/752c9494cacdd77d7ce1220c1ec76381313b3ef4))
+
 # [1.0.0-alpha.86](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.85...v1.0.0-alpha.86) (2023-05-25)
 
 
