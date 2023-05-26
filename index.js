@@ -6,7 +6,7 @@ export const attention = {
   popover:
     'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
   arrowBase:
-    'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 transform',
+    'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
   arrowDirectionLeft: '-left-[8px]',
   arrowDirectionRight: '-right-[8px]',
   arrowDirectionBottom: '-bottom-[8px]',
