@@ -67,7 +67,7 @@ export const box = {
 
 export const pill = {
   pill: 'flex items-center',
-  button: 'inline-flex items-center focus:focusable:focus text-12 transition-all',
+  button: 'inline-flex items-center focusable text-12 transition-all',
   suggestion: 'i-bg-$color-pill-suggestion-background hover:i-bg-$color-pill-suggestion-background-hover active:i-bg-$color-pill-suggestion-background-active i-text-$color-pill-suggestion-text font-bold',
   filter: 'i-bg-$color-pill-filter-background hover:i-bg-$color-pill-filter-background-hover active:i-bg-$color-pill-filter-background-active i-text-$color-pill-filter-text',
   label: 'pl-12 py-8 rounded-l-full',
@@ -244,7 +244,7 @@ export const button = {
   buttonSmallButtonLink: 'p-0', // .button--small.button--link
   // Disabled
   buttonIsDisabled:
-    'py-10 px-14 font-bold leading-24 max-w-max focusable justify-center transition-colors ease-in-out i-bg-$color-button-disabled-background! i-text-$color-button-disabled-text cursor-default pointer-events-none', // .button:disabled, .button--is-disabled
+    'py-10 px-14 font-bold leading-24 max-w-max justify-center transition-colors ease-in-out i-bg-$color-button-disabled-background! i-text-$color-button-disabled-text cursor-default pointer-events-none', // .button:disabled, .button--is-disabled
   // Progress indicator
   buttonInProgress:
     'py-10 px-14 border-0 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out animate-inprogress i-text-$color-button-loading-text! pointer-events-none i-bg-$color-button-loading-background!', // .button--in-progress, a.button--in-progress:visited
@@ -277,7 +277,7 @@ export const modal = {
   backdrop:
     'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-20 [--w-modal-max-height:80%] [--w-modal-width:640px]',
   modal:
-    'sm:pb-safe-[32] i-shadow-$shadow-modal max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 i-bg-$color-modal-background flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
+    'pb-safe-[32] i-shadow-$shadow-modal max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 i-bg-$color-modal-background flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
   content:
     'block overflow-y-auto overflow-x-hidden last:mb-0 flex-grow shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end shrink-0 px-16 sm:px-32',
@@ -373,8 +373,8 @@ export const toggle = {
   input: 'peer',
   deadToggleInput: 'hidden',
   inputDisabled: 'pointer-events-none',
-  focusable: 'peer-focus:focusable:focus peer-focus-visible:focusable:focus-visible peer-not-focus-visible:focusable:focus:not(:focus-visible)',
-  focusableWithin: 'focus-within:focusable:focus focus-within:focusable:focus-visible',
+  focusable: 'peer-focus:focusable',
+  focusableWithin: 'focus-within:focusable',
   label: 'cursor-pointer text-16 i-text-$color-label-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
   deadToggleLabel: '-mt-2',
   noContent: `before:content-['']`,
@@ -403,9 +403,9 @@ export const toggle = {
 };
 
 export const clickable = {
-  clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer',
+  clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
   clickableNotToggle: 'inset-0 absolute',
-  label: `px-12 ${label.label} py-8! cursor-pointer`, 
+  label: `px-12 ${label.label} py-8! cursor-pointer focusable focusable-inset`, 
 }
 
 export const combobox = {
