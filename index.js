@@ -14,7 +14,7 @@ export const attention = {
   arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
   arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
   arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
-  content: 'last:mb-0',
+  content: 'last-child:mb-0',
 };
 
 export const pageIndicator = {
@@ -25,7 +25,7 @@ export const pageIndicator = {
 };
 
 export const ribbon = {
-  base: 'py-4 px-8 border rounded-4 inline-flex last:mb-0',
+  base: 'py-4 px-8 border rounded-4 inline-flex last-child:mb-0',
   info: 'border-aqua-50 bg-aqua-50',
   success: 'border-green-100 bg-green-100',
   warning: 'border-yellow-100 bg-yellow-100',
@@ -55,7 +55,7 @@ export const slider = {
 };
 
 export const box = {
-  box: 'group block relative break-words last:mb-0 p-16 rounded-8', // Relative here enables w-clickable
+  box: 'group block relative break-words last-child:mb-0 p-16 rounded-8', // Relative here enables w-clickable
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
   info: 'i-bg-$color-box-info-background',
   neutral: 'i-bg-$color-box-neutral-background',
@@ -161,7 +161,7 @@ export const toast = {
   toastIconWarning: 'i-text-$color-toast-warning-icon',
   toastIconNegative: 'i-bg-$color-toast-negative-icon',
   toastIconLoading: 'animate-bounce',
-  toastContent: 'self-center mr-8 py-4 last:mb-0',
+  toastContent: 'self-center mr-8 py-4 last-child:mb-0',
   toastClose: 'ml-auto p-[8px]',
 };
 
@@ -279,7 +279,7 @@ export const modal = {
   modal:
     'pb-safe-[32] i-shadow-$shadow-modal max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 i-bg-$color-modal-background flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
   content:
-    'block overflow-y-auto overflow-x-hidden last:mb-0 flex-grow shrink px-16 sm:px-32 relative',
+    'block overflow-y-auto overflow-x-hidden last-child:mb-0 flex-grow shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end shrink-0 px-16 sm:px-32',
   transitionTitle: 'transition-all duration-300',
   transitionTitleCenter: 'justify-self-center',
