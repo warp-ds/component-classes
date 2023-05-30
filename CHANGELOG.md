@@ -1,3 +1,10 @@
+# [1.0.0-alpha.88](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.87...v1.0.0-alpha.88) (2023-05-30)
+
+
+### Bug Fixes
+
+* Move react specific switch track classes to component classes ([#69](https://github.com/warp-ds/component-classes/issues/69)) ([8d4f135](https://github.com/warp-ds/component-classes/commit/8d4f135104ff54470d66a8063128f63e193f2854))
+
 # [1.0.0-alpha.87](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.86...v1.0.0-alpha.87) (2023-05-26)
 
 
