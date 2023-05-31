@@ -137,7 +137,7 @@ export const switchToggle = {
   trackDisabled: 'i-bg-$color-switch-track-background-disabled',
   handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
   handleSelected: 'translate-x-20',
-  handleNotDisabled: 'i-bg-$color-switch-handle-background shadow-small',
+  handleNotDisabled: 'i-bg-$color-switch-handle-background shadow-s',
   handleDisabled: 'i-bg-$color-switch-handle-background-disabled',
   a11y: 'sr-only',
 };
@@ -410,7 +410,7 @@ export const clickable = {
 
 export const combobox = {
   wrapper: 'relative',
-  combobox: 'absolute left-0 right-0 pb-8 rounded-8 i-bg-$color-background-interactive shadow-medium',
+  combobox: 'absolute left-0 right-0 pb-8 rounded-8 i-bg-$color-background-interactive shadow-m',
   textMatch: 'font-bold',
   listbox: 'm-0 p-0 select-none list-none',
   option: 'block cursor-pointer p-8 hover:i-bg-$color-background-interactive-hover',
