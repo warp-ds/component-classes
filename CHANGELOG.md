@@ -1,3 +1,10 @@
+# [1.0.0-alpha.89](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.88...v1.0.0-alpha.89) (2023-05-31)
+
+
+### Bug Fixes
+
+* **classes:** update shadow classes with new naming ([#72](https://github.com/warp-ds/component-classes/issues/72)) ([c767041](https://github.com/warp-ds/component-classes/commit/c7670413eb9eafaa1d6adef2e53cd50b937c3acc))
+
 # [1.0.0-alpha.88](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.87...v1.0.0-alpha.88) (2023-05-30)
 
 
