@@ -1,3 +1,10 @@
+# [1.0.0-alpha.90](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.89...v1.0.0-alpha.90) (2023-06-01)
+
+
+### Bug Fixes
+
+* focusable and last child clean up ([#70](https://github.com/warp-ds/component-classes/issues/70)) ([7f403f3](https://github.com/warp-ds/component-classes/commit/7f403f31132d547886398122f087c7b5f955d1f1))
+
 # [1.0.0-alpha.89](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.88...v1.0.0-alpha.89) (2023-05-31)
 
 
