@@ -1,3 +1,10 @@
+# [1.0.0-alpha.91](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.90...v1.0.0-alpha.91) (2023-06-01)
+
+
+### Bug Fixes
+
+* **index.js:** add remaining classes to alert object ([#71](https://github.com/warp-ds/component-classes/issues/71)) ([f3ffb8a](https://github.com/warp-ds/component-classes/commit/f3ffb8a62a53064c441210e7cf116e70ba99402f))
+
 # [1.0.0-alpha.90](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.89...v1.0.0-alpha.90) (2023-06-01)
 
 
