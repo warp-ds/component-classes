@@ -20,8 +20,9 @@ export const attention = {
 export const pageIndicator = {
   wrapper: 'flex space-x-8 p-8',
   dot: 'h-8 w-8 rounded-full',
-  inactive: 'bg-bluegray-300',
-  active: 'bg-blue-600',
+  inactive: 'i-bg-$color-pageindicator-background',
+  active: 'i-bg-$color-pageindicator-background-active',
+  hover: 'i-bg-$color-pageindicator-background-hover',
 };
 
 export const ribbon = {
