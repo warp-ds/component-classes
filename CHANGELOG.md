@@ -1,3 +1,10 @@
+# [1.0.0-alpha.92](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.91...v1.0.0-alpha.92) (2023-06-02)
+
+
+### Features
+
+* **pageindicator:** add classes for page indicator ([#74](https://github.com/warp-ds/component-classes/issues/74)) ([b4a7886](https://github.com/warp-ds/component-classes/commit/b4a7886ee29926002d64191ccf9f8664d4cccf46))
+
 # [1.0.0-alpha.91](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.90...v1.0.0-alpha.91) (2023-06-01)
 
 
