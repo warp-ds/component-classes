@@ -1,3 +1,10 @@
+# [1.0.0-alpha.93](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.92...v1.0.0-alpha.93) (2023-06-02)
+
+
+### Bug Fixes
+
+* should be last for the box wrapper ([#75](https://github.com/warp-ds/component-classes/issues/75)) ([2acc383](https://github.com/warp-ds/component-classes/commit/2acc383370766b017fce73378e34e88b621536b9))
+
 # [1.0.0-alpha.92](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.91...v1.0.0-alpha.92) (2023-06-02)
 
 
