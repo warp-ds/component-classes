@@ -1,3 +1,10 @@
+# [1.0.0-alpha.94](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.93...v1.0.0-alpha.94) (2023-06-07)
+
+
+### Bug Fixes
+
+* **step:** move classes to component-classes + cleanup of unused classes ([#76](https://github.com/warp-ds/component-classes/issues/76)) ([1365ce2](https://github.com/warp-ds/component-classes/commit/1365ce2c52af8638bbe07398bad06303b6551352))
+
 # [1.0.0-alpha.93](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.92...v1.0.0-alpha.93) (2023-06-02)
 
 
