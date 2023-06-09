@@ -1,3 +1,10 @@
+# [1.0.0-alpha.95](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.94...v1.0.0-alpha.95) (2023-06-09)
+
+
+### Bug Fixes
+
+* add text colors to box ([#77](https://github.com/warp-ds/component-classes/issues/77)) ([bd91e0c](https://github.com/warp-ds/component-classes/commit/bd91e0c8c79ea34cabce80ec48b74eabf821427e))
+
 # [1.0.0-alpha.94](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.93...v1.0.0-alpha.94) (2023-06-07)
 
 
