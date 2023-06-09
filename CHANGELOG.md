@@ -1,3 +1,10 @@
+# [1.0.0-alpha.96](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.95...v1.0.0-alpha.96) (2023-06-09)
+
+
+### Bug Fixes
+
+* remove comment ([5cc2387](https://github.com/warp-ds/component-classes/commit/5cc2387d9fe3a1569bb04417f1c92d4918f593e1))
+
 # [1.0.0-alpha.95](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.94...v1.0.0-alpha.95) (2023-06-09)
 
 
