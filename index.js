@@ -212,10 +212,6 @@ export const expandable = {
   buttonBox: 'w-full text-left relative inline-flex! items-center ' + box.box,
 };
 
-/*
-    This is an attempt to rewrite f-button into a component-class structure. Comment after each line shows what classes they were tied to before. The button component itself shows which of these classes were combined to do all the states etc...
-    There is one kinds of unsupported classes in use here , all the colors that will be using the classes tied to the tokens instead (--i-).
-*/
 export const button = {
   // Buttontypes
   buttonSecondary:
