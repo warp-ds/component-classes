@@ -58,9 +58,9 @@ export const slider = {
 export const box = {
   box: 'group block relative break-words last:mb-0 p-16 rounded-8', // Relative here enables w-clickable
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
-  info: 'i-bg-$color-box-info-background',
-  neutral: 'i-bg-$color-box-neutral-background',
-  bordered: 'border-2 i-border-$color-box-bordered-border i-bg-$color-box-bordered-background',
+  info: 'i-bg-$color-box-info-background i-text-$color-box-info-text',
+  neutral: 'i-bg-$color-box-neutral-background i-text-$color-box-neutral-text',
+  bordered: 'border-2 i-border-$color-box-bordered-border i-bg-$color-box-bordered-background i-text-$color-box-bordered-text',
   infoClickable: 'hover:i-bg-$color-box-info-background-hover active:i-bg-$color-box-info-background-hover',
   neutralClickable: 'hover:i-bg-$color-box-neutral-background-hover active:i-bg-$color-box-neutral-background-hover',
   borderedClickable: 'hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover'
