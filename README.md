@@ -1,6 +1,7 @@
 # Warp component classes
 
 test
+test 2
 
 This is the core package for Warp component classes.
 
