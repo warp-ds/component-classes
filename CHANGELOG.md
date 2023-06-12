@@ -1,3 +1,10 @@
+# [1.0.0-alpha.98](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.97...v1.0.0-alpha.98) (2023-06-12)
+
+
+### Bug Fixes
+
+* bump versions ([#82](https://github.com/warp-ds/component-classes/issues/82)) ([2818632](https://github.com/warp-ds/component-classes/commit/28186324ba437a51cabd6c12ca2db8c01d9685ab))
+
 # [1.0.0-alpha.97](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.96...v1.0.0-alpha.97) (2023-06-12)
 
 
