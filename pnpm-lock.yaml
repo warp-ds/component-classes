@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 devDependencies:
   '@eik/cli':
@@ -11,8 +15,8 @@ devDependencies:
     specifier: ^10.0.1
     version: 10.0.1(semantic-release@19.0.5)
   '@warp-ds/uno':
-    specifier: ^1.0.0-alpha.18
-    version: 1.0.0-alpha.18
+    specifier: ^1.0.0-alpha.36
+    version: 1.0.0-alpha.36
   cz-conventional-changelog:
     specifier: ^3.3.0
     version: 3.3.0
@@ -967,8 +971,8 @@ packages:
       - rollup
     dev: true
 
-  /@warp-ds/uno@1.0.0-alpha.18:
-    resolution: {integrity: sha512-VYhcULCiJjjQIdnWzQzi65T22xDRpFgU6Kp606u797HKgEKpk1oUIZck6ataDHQIVGDpzVp06+EQknSOkrweGQ==}
+  /@warp-ds/uno@1.0.0-alpha.36:
+    resolution: {integrity: sha512-oHs+3qWxMfhwI6AUD4R0E2l0LzuNVHp9WqOewap/+Gi7mloCIpnDVIVXZWzvj81KkuDdm3rPMTWwBuqTNzSH8g==}
     dependencies:
       '@unocss/core': 0.50.6
       '@unocss/preset-mini': 0.50.6

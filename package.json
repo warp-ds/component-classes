@@ -26,7 +26,7 @@
     "@eik/cli": "^2.0.22",
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
-    "@warp-ds/uno": "^1.0.0-alpha.18",
+    "@warp-ds/uno": "^1.0.0-alpha.36",
     "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^19.0.5",
     "typescript": "^4.9.5",
