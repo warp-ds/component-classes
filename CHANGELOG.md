@@ -1,3 +1,12 @@
+# [1.0.0-alpha.97](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.96...v1.0.0-alpha.97) (2023-06-12)
+
+
+### Bug Fixes
+
+* align affix ([#80](https://github.com/warp-ds/component-classes/issues/80)) ([e4e847a](https://github.com/warp-ds/component-classes/commit/e4e847a51d1b6cd6135adf22ed1b80bf4758d638))
+* bump uno ([#79](https://github.com/warp-ds/component-classes/issues/79)) ([256f9bd](https://github.com/warp-ds/component-classes/commit/256f9bdb1cea425fa1765d20f1a179fca9c9f2a9))
+* **release.yml:** set node v to lts/* and pnpm to 8 ([#81](https://github.com/warp-ds/component-classes/issues/81)) ([849adda](https://github.com/warp-ds/component-classes/commit/849adda66870719060151c2a5d23443eb5268e3f))
+
 # [1.0.0-alpha.96](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.95...v1.0.0-alpha.96) (2023-06-09)
 
 
