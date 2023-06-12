@@ -343,20 +343,20 @@ export const helpText = {
 }
 
 const prefixSuffixWrapperBase =
-  'absolute top-0 bottom-0 hover:text-aqua-400 flex justify-center items-center focusable ';
+  'absolute top-0 bottom-0 flex justify-center items-center focusable ';
 
 export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
-  label: `${label.label} pb-0 text-12`,
+  label: `${label.label} pb-0! text-12!`,
 };
 
 export const prefix = {
   wrapper: prefixSuffixWrapperBase + 'left-0',
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
-  label: `${label.label} pb-0 text-secondary text-12`,
+  label: `${label.label} pb-0! text-12!`,
 };
 
 export const breadcrumbs = {
