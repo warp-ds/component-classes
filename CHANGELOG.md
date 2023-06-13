@@ -1,3 +1,10 @@
+# [1.0.0-alpha.99](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.98...v1.0.0-alpha.99) (2023-06-13)
+
+
+### Features
+
+* **ribbon:** update with warp tokens ([#73](https://github.com/warp-ds/component-classes/issues/73)) ([c4c2382](https://github.com/warp-ds/component-classes/commit/c4c23829af2c3e9853f9246ce18dfda4618bb9ff))
+
 # [1.0.0-alpha.98](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.97...v1.0.0-alpha.98) (2023-06-12)
 
 
