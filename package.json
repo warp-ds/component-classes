@@ -13,7 +13,8 @@
   "files": [
     "index.js",
     "dist/assets",
-    "classes.js"
+    "classes.js",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "tsc && pnpm build:css",
