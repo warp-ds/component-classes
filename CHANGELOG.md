@@ -1,3 +1,11 @@
+# [1.0.0-alpha.101](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.100...v1.0.0-alpha.101) (2023-06-14)
+
+
+### Bug Fixes
+
+* add types to the dist ([#84](https://github.com/warp-ds/component-classes/issues/84)) ([de62ab3](https://github.com/warp-ds/component-classes/commit/de62ab32105bbf86ae070599a40fb285b59484e4))
+* link as button needs underline on hover ([#85](https://github.com/warp-ds/component-classes/issues/85)) ([56460d3](https://github.com/warp-ds/component-classes/commit/56460d3536648c8979083df6c80ffc1f65b5e055))
+
 # [1.0.0-alpha.100](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.99...v1.0.0-alpha.100) (2023-06-14)
 
 
