@@ -31,7 +31,8 @@
     "semantic-release": "^19.0.5",
     "typescript": "^4.9.5",
     "unocss": "^0.53.1",
-    "vite": "^4.2.1"
+    "vite": "^4.2.1",
+    "vite-plugin-dts": "^2.3.0"
   },
   "eik": {
     "server": "https://assets.finn.no",
