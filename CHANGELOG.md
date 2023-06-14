@@ -1,3 +1,10 @@
+# [1.0.0-alpha.100](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.99...v1.0.0-alpha.100) (2023-06-14)
+
+
+### Bug Fixes
+
+* more browser friendly way of using quotes ([#83](https://github.com/warp-ds/component-classes/issues/83)) ([73aa8a3](https://github.com/warp-ds/component-classes/commit/73aa8a304850c01120d641e5ab8dc8015de18b6e))
+
 # [1.0.0-alpha.99](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.98...v1.0.0-alpha.99) (2023-06-13)
 
 
