@@ -271,7 +271,7 @@ export const buttonGroupItem = {
 
 export const modal = {
   //TODO: this class can be removed when we have the solution for opacity and we can add rgba values to the background of the backdrop
-  transparentBg: `before:i-bg-$color-modal-backdrop-background before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:opacity-25`,
+  transparentBg: `before:i-bg-$color-modal-backdrop-background before:content-[""] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:opacity-25`,
   backdrop:
     'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-20 [--w-modal-max-height:80%] [--w-modal-width:640px]',
   modal:
@@ -378,8 +378,8 @@ export const toggle = {
   focusableWithin: 'focus-within:focusable',
   label: 'cursor-pointer text-16 i-text-$color-label-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
   deadToggleLabel: '-mt-2',
-  noContent: `before:content-['']`,
-  indeterminate: `leading-[1.1] before:i-text-$color-text-inverted before:text-center before:font-bold before:content-['–'] peer-indeterminate:before:i-border-$color-checkbox-border-active peer-indeterminate:before:i-bg-$color-checkbox-background-active peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-active-hover`,
+  noContent: `before:content-[""]`,
+  indeterminate: `leading-[1.1] before:i-text-$color-text-inverted before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:i-border-$color-checkbox-border-active peer-indeterminate:before:i-bg-$color-checkbox-background-active peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-active-hover`,
   labelDisabled: 'pointer-events-none',
   checkbox: 'before:rounded-2 hover:before:i-border-$color-checkbox-border-hover hover:before:i-bg-$color-checkbox-background-hover',
   checkboxChecked: 'peer-checked:before:i-border-$color-checkbox-border-active peer-checked:before:i-bg-$color-checkbox-background-active peer-checked:peer-hover:before:i-border-$color-checkbox-border-active-hover peer-checked:peer-hover:before:i-bg-$color-checkbox-background-active-hover',
