@@ -15,6 +15,7 @@ export const attention = {
   arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
   arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
   content: 'last-child:mb-0',
+  notCallout: 'absolute z-50',
 };
 
 export const pageIndicator = {
@@ -180,6 +181,7 @@ export const tab = {
   tabActive: 'i-text-$color-tabs-text-active',
   icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
   iconUnderlinedActive: 'i-text-$color-tabs-text-active',
+  content: 'flex items-center justify-center gap-8',
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
   contentUnderlinedActive: 'i-text-$color-tabs-text-active',
 };
@@ -209,8 +211,12 @@ export const expandable = {
   chevronNonBox: 'relative left-8',
   chevronBox: 'absolute right-16',
   chevronExpanded: '-rotate-180',
+  expansion: 'overflow-hidden',
+  expansionNotExpanded: 'h-0 invisible',
   button: buttonReset + ' hover:underline focus:underline',
   buttonBox: 'w-full text-left relative inline-flex! items-center ' + box.box,
+  paddingTop: 'pt-0',
+  title: 'flex justify-between items-center',
 };
 
 export const button = {
