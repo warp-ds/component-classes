@@ -1,3 +1,10 @@
+# [1.0.0-alpha.102](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.101...v1.0.0-alpha.102) (2023-06-15)
+
+
+### Bug Fixes
+
+* Removed usage of old non-semantic background and text token classes ([#86](https://github.com/warp-ds/component-classes/issues/86)) ([b6e8fbd](https://github.com/warp-ds/component-classes/commit/b6e8fbdb34f3c02ba551dfc76263d9c07a6793eb))
+
 # [1.0.0-alpha.101](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.100...v1.0.0-alpha.101) (2023-06-14)
 
 
