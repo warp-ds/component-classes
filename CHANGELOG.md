@@ -1,3 +1,10 @@
+# [1.0.0-alpha.104](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.103...v1.0.0-alpha.104) (2023-06-15)
+
+
+### Features
+
+* **expandable:** add class for h4 ([#88](https://github.com/warp-ds/component-classes/issues/88)) ([cb17380](https://github.com/warp-ds/component-classes/commit/cb173801980ac54b95147055db036b298ca11da1))
+
 # [1.0.0-alpha.103](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.102...v1.0.0-alpha.103) (2023-06-15)
 
 
