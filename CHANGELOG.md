@@ -1,3 +1,25 @@
+# [1.0.0-alpha.102](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.101...v1.0.0-alpha.102) (2023-06-15)
+
+
+### Bug Fixes
+
+* Removed usage of old non-semantic background and text token classes ([#86](https://github.com/warp-ds/component-classes/issues/86)) ([b6e8fbd](https://github.com/warp-ds/component-classes/commit/b6e8fbdb34f3c02ba551dfc76263d9c07a6793eb))
+
+# [1.0.0-alpha.101](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.100...v1.0.0-alpha.101) (2023-06-14)
+
+
+### Bug Fixes
+
+* add types to the dist ([#84](https://github.com/warp-ds/component-classes/issues/84)) ([de62ab3](https://github.com/warp-ds/component-classes/commit/de62ab32105bbf86ae070599a40fb285b59484e4))
+* link as button needs underline on hover ([#85](https://github.com/warp-ds/component-classes/issues/85)) ([56460d3](https://github.com/warp-ds/component-classes/commit/56460d3536648c8979083df6c80ffc1f65b5e055))
+
+# [1.0.0-alpha.100](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.99...v1.0.0-alpha.100) (2023-06-14)
+
+
+### Bug Fixes
+
+* more browser friendly way of using quotes ([#83](https://github.com/warp-ds/component-classes/issues/83)) ([73aa8a3](https://github.com/warp-ds/component-classes/commit/73aa8a304850c01120d641e5ab8dc8015de18b6e))
+
 # [1.0.0-alpha.99](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.98...v1.0.0-alpha.99) (2023-06-13)
 
 

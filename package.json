@@ -1,7 +1,7 @@
 {
   "name": "@warp-ds/component-classes",
   "repository": "git@github.com:warp-ds/component-classes.git",
-  "version": "1.0.0-alpha.99",
+  "version": "1.0.0-alpha.102",
   "description": "WARP component classes",
   "type": "module",
   "exports": {
@@ -13,7 +13,8 @@
   "files": [
     "index.js",
     "dist/assets",
-    "classes.js"
+    "classes.js",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "tsc && pnpm build:css",
@@ -26,12 +27,13 @@
     "@eik/cli": "^2.0.22",
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
-    "@warp-ds/uno": "^1.0.0-alpha.36",
+    "@warp-ds/uno": "^1.0.0-alpha.41",
     "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^19.0.5",
     "typescript": "^4.9.5",
     "unocss": "^0.53.1",
-    "vite": "^4.2.1"
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^2.3.0"
   },
   "eik": {
     "server": "https://assets.finn.no",
