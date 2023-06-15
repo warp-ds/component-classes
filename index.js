@@ -160,7 +160,7 @@ export const toast = {
   positive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
   warning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
   negative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
-  icon: 'flex-shrink-0 rounded-full w-[16px] h-[16px] m-[8px] text-white',
+  icon: 'flex-shrink-0 rounded-full w-[16px] h-[16px] m-[8px] s-text-inverted',
   iconPositive: 'i-text-$color-toast-positive-icon',
   iconWarning: 'i-text-$color-toast-warning-icon',
   iconNegative: 'i-bg-$color-toast-negative-icon',
