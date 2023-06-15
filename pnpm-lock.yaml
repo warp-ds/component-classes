@@ -1,8 +1,4 @@
-lockfileVersion: '6.1'
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
+lockfileVersion: '6.0'
 
 devDependencies:
   '@eik/cli':
@@ -15,8 +11,8 @@ devDependencies:
     specifier: ^10.0.1
     version: 10.0.1(semantic-release@19.0.5)
   '@warp-ds/uno':
-    specifier: ^1.0.0-alpha.36
-    version: 1.0.0-alpha.36
+    specifier: ^1.0.0-alpha.41
+    version: 1.0.0-alpha.41
   cz-conventional-changelog:
     specifier: ^3.3.0
     version: 3.3.0
@@ -28,13 +24,13 @@ devDependencies:
     version: 4.9.5
   unocss:
     specifier: ^0.53.1
-    version: 0.53.1(postcss@8.4.24)(vite@4.2.1)
+    version: 0.53.1(vite@4.3.9)
   vite:
-    specifier: ^4.2.1
-    version: 4.2.1(@types/node@20.3.0)
+    specifier: ^4.3.9
+    version: 4.3.9
   vite-plugin-dts:
     specifier: ^2.3.0
-    version: 2.3.0(@types/node@20.3.0)(vite@4.2.1)
+    version: 2.3.0(vite@4.3.9)
 
 packages:
 
@@ -210,7 +206,7 @@ packages:
     resolution: {integrity: sha512-h9z1jyz0ueOwNfAPnwjJk3JGCMdm/3TFqGiGi3KqLgx3fhHgKOLmZa9fqGgX0E8arCgN2YavJwHiBCsIKTqEdQ==}
     dependencies:
       ajv: 8.12.0
-      ajv-formats: 2.1.1(ajv@8.12.0)
+      ajv-formats: 2.1.1
       glob: 8.1.0
       is-glob: 4.0.3
       mime-types: 2.1.35
@@ -484,24 +480,24 @@ packages:
     dev: true
     optional: true
 
-  /@microsoft/api-extractor-model@7.27.2(@types/node@20.3.0):
+  /@microsoft/api-extractor-model@7.27.2:
     resolution: {integrity: sha512-JWhSfEb4UMYZgI4JsJOws1DjQrb7BaoXoWQV5XW23MWRn1krHVmRHky82Dby5rQPHdr/BBKvEjZV6joFmaGU4Q==}
     dependencies:
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 3.59.3(@types/node@20.3.0)
+      '@rushstack/node-core-library': 3.59.3
     transitivePeerDependencies:
       - '@types/node'
     dev: true
 
-  /@microsoft/api-extractor@7.35.3(@types/node@20.3.0):
+  /@microsoft/api-extractor@7.35.3:
     resolution: {integrity: sha512-Psh6rZB7BeJznIKJd1+xPhM0AQVXLyYHxIz5ezN7Whu3DIHfx/iRJZLFvMdshpB046ir/JDYBciuYdQbArloHQ==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.27.2(@types/node@20.3.0)
+      '@microsoft/api-extractor-model': 7.27.2
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 3.59.3(@types/node@20.3.0)
+      '@rushstack/node-core-library': 3.59.3
       '@rushstack/rig-package': 0.3.20
       '@rushstack/ts-command-line': 4.15.0
       colors: 1.2.5
@@ -697,7 +693,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rushstack/node-core-library@3.59.3(@types/node@20.3.0):
+  /@rushstack/node-core-library@3.59.3:
     resolution: {integrity: sha512-OGk0nQc+SvDkn+IQN16co691A/96gPoRIoWdIlpUds+sYPAGWdTcNVjKMwFOAsCSASqOeF2lh1GdPtWoWJCkPQ==}
     peerDependencies:
       '@types/node': '*'
@@ -705,7 +701,6 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@types/node': 20.3.0
       colors: 1.2.5
       fs-extra: 7.0.1
       import-lazy: 4.0.0
@@ -902,6 +897,7 @@ packages:
   /@types/node@20.3.0:
     resolution: {integrity: sha512-cumHmIAf6On83X7yP+LrsEyUOf/YlociZelmpRYaGFydoaPdxdt80MAbu6vWerQT2COCp2nPvHdsbD7tHn/YlQ==}
     dev: true
+    optional: true
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -911,12 +907,12 @@ packages:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: true
 
-  /@unocss/astro@0.53.1(vite@4.2.1):
+  /@unocss/astro@0.53.1(vite@4.3.9):
     resolution: {integrity: sha512-dvPH2buCL0qvWXFfQFUeB8kbbJsliN0ib2Am5/1r4XyOwCiCvfwc3UuQpsi0xJs/WO9QgIxLWxakxVj3DeAuAQ==}
     dependencies:
       '@unocss/core': 0.53.1
       '@unocss/reset': 0.53.1
-      '@unocss/vite': 0.53.1(vite@4.2.1)
+      '@unocss/vite': 0.53.1(vite@4.3.9)
     transitivePeerDependencies:
       - rollup
       - vite
@@ -973,11 +969,9 @@ packages:
       sirv: 2.0.3
     dev: true
 
-  /@unocss/postcss@0.53.1(postcss@8.4.24):
+  /@unocss/postcss@0.53.1:
     resolution: {integrity: sha512-vuUj/Tsvn6/YlEYp/AezyjoZLNBp+YomwpQctNZAC5ged5cqKfaw+oISw1LYzi/48Ynx7cV/4XqikApuozrvRQ==}
     engines: {node: '>=14'}
-    peerDependencies:
-      postcss: ^8.4.21
     dependencies:
       '@unocss/config': 0.53.1
       '@unocss/core': 0.53.1
@@ -1090,7 +1084,7 @@ packages:
       '@unocss/core': 0.53.1
     dev: true
 
-  /@unocss/vite@0.53.1(vite@4.2.1):
+  /@unocss/vite@0.53.1(vite@4.3.9):
     resolution: {integrity: sha512-/N/rjiFyj1ejK1ZQIv9N/NMsNE6i2/V8ISwYhbGxLpc3Sca4jeVjZPsx5cg5DN9Ddas2BRH3YhLhdh8rPUPzxQ==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0
@@ -1105,13 +1099,13 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.2.12
       magic-string: 0.30.0
-      vite: 4.2.1(@types/node@20.3.0)
+      vite: 4.3.9
     transitivePeerDependencies:
       - rollup
     dev: true
 
-  /@warp-ds/uno@1.0.0-alpha.36:
-    resolution: {integrity: sha512-oHs+3qWxMfhwI6AUD4R0E2l0LzuNVHp9WqOewap/+Gi7mloCIpnDVIVXZWzvj81KkuDdm3rPMTWwBuqTNzSH8g==}
+  /@warp-ds/uno@1.0.0-alpha.41:
+    resolution: {integrity: sha512-Ni2c0Ec2SVAUwJqp+XPx8QUDXAMj+lzigBRrIqUZR+XhJ5AUNQKEkClY64o/eDlZWGLxbyJDsbUVkL7gQTxXGw==}
     dependencies:
       '@unocss/core': 0.50.8
       '@unocss/preset-mini': 0.50.8
@@ -1161,10 +1155,8 @@ packages:
       indent-string: 4.0.0
     dev: true
 
-  /ajv-formats@2.1.1(ajv@8.12.0):
+  /ajv-formats@2.1.1:
     resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
-    peerDependencies:
-      ajv: ^8.0.0
     peerDependenciesMeta:
       ajv:
         optional: true
@@ -4464,7 +4456,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.53.1(postcss@8.4.24)(vite@4.2.1):
+  /unocss@0.53.1(vite@4.3.9):
     resolution: {integrity: sha512-0lRblA8hX7VUu5dywbcStzm590Iz5ahSJGsMNKNH3+u9C7AfJcKT8epxjkIkJWQBNJLD5vsao4SuuhLWB7eMQQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4473,11 +4465,11 @@ packages:
       '@unocss/webpack':
         optional: true
     dependencies:
-      '@unocss/astro': 0.53.1(vite@4.2.1)
+      '@unocss/astro': 0.53.1(vite@4.3.9)
       '@unocss/cli': 0.53.1
       '@unocss/core': 0.53.1
       '@unocss/extractor-arbitrary-variants': 0.53.1
-      '@unocss/postcss': 0.53.1(postcss@8.4.24)
+      '@unocss/postcss': 0.53.1
       '@unocss/preset-attributify': 0.53.1
       '@unocss/preset-icons': 0.53.1
       '@unocss/preset-mini': 0.53.1
@@ -4492,9 +4484,8 @@ packages:
       '@unocss/transformer-compile-class': 0.53.1
       '@unocss/transformer-directives': 0.53.1
       '@unocss/transformer-variant-group': 0.53.1
-      '@unocss/vite': 0.53.1(vite@4.2.1)
+      '@unocss/vite': 0.53.1(vite@4.3.9)
     transitivePeerDependencies:
-      - postcss
       - rollup
       - supports-color
       - vite
@@ -4547,31 +4538,31 @@ packages:
       replace-ext: 0.0.1
     dev: true
 
-  /vite-plugin-dts@2.3.0(@types/node@20.3.0)(vite@4.2.1):
+  /vite-plugin-dts@2.3.0(vite@4.3.9):
     resolution: {integrity: sha512-WbJgGtsStgQhdm3EosYmIdTGbag5YQpZ3HXWUAPCDyoXI5qN6EY0V7NXq0lAmnv9hVQsvh0htbYcg0Or5Db9JQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: '>=2.9.0'
     dependencies:
       '@babel/parser': 7.22.5
-      '@microsoft/api-extractor': 7.35.3(@types/node@20.3.0)
+      '@microsoft/api-extractor': 7.35.3
       '@rollup/pluginutils': 5.0.2
-      '@rushstack/node-core-library': 3.59.3(@types/node@20.3.0)
+      '@rushstack/node-core-library': 3.59.3
       debug: 4.3.4
       fast-glob: 3.2.12
       fs-extra: 10.1.0
       kolorist: 1.8.0
       magic-string: 0.29.0
       ts-morph: 18.0.0
-      vite: 4.2.1(@types/node@20.3.0)
+      vite: 4.3.9
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
     dev: true
 
-  /vite@4.2.1(@types/node@20.3.0):
-    resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
+  /vite@4.3.9:
+    resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4595,10 +4586,8 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.3.0
       esbuild: 0.17.19
       postcss: 8.4.24
-      resolve: 1.22.2
       rollup: 3.25.1
     optionalDependencies:
       fsevents: 2.3.2
@@ -4747,3 +4736,7 @@ packages:
     optionalDependencies:
       commander: 9.5.0
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

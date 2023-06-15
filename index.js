@@ -158,7 +158,7 @@ export const toast = {
   toastPositive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
   toastWarning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
   toastNegative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
-  toastIcon: 'flex-shrink-0 rounded-full w-[16px] h-[16px] m-[8px] text-white',
+  toastIcon: 'flex-shrink-0 rounded-full w-[16px] h-[16px] m-[8px] s-text-inverted',
   toastIconPositive: 'i-text-$color-toast-positive-icon',
   toastIconWarning: 'i-text-$color-toast-warning-icon',
   toastIconNegative: 'i-bg-$color-toast-negative-icon',
@@ -232,7 +232,7 @@ export const button = {
   buttonPill:
     'font-bold leading-24 max-w-max focusable justify-center transition-colors ease-in-out rounded-full! min-h-[44px] min-w-[44px] border-0! p-4 i-text-$color-button-pill-icon hover:i-text-$color-button-pill-icon-hover active:i-text-$color-button-pill-icon-active i-bg-$color-button-pill-background hover:i-bg-$color-button-pill-background-hover acive:i-bg-$color-button-pill-background-active inline-flex items-center justify-center hover:bg-clip-padding', // .button--pill   missing:  hover:background-color: rgba(var(--f-blue-600-rgb), 0.1) , and:  hover:border-color: hsla(0, 0%, 100%, 0.4);
   buttonLink:
-    'leading-24 max-w-max focusable ease-in-out inline i-text-$color-text-link active:underline hover:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
+    'leading-24 max-w-max focusable ease-in-out inline s-text-link active:underline hover:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
   // Sizestuff
   buttonSmall: 'px-16 py-6 text-12 leading-16', // .button--small
   buttonSmallOverride: 'py-8', // .button--small.button--primary, .button--small.button--destructive, .button--small.button--destructive-flat, .button--small.button--order, .button--small.button--quiet
@@ -314,7 +314,7 @@ export const input = {
   disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
   invalid: 'focusable i-border-$color-input-border-error i-text-$color-input-text-error!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
-  placeholder: 'placeholder:i-text-$color-text-placeholder',
+  placeholder: 'placeholder:s-text-placeholder',
   wrapper: 'relative',
   suffix: 'pr-40',
   prefix: 'pl-40'
@@ -379,7 +379,7 @@ export const toggle = {
   label: 'cursor-pointer text-16 i-text-$color-label-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
   deadToggleLabel: '-mt-2',
   noContent: `before:content-[""]`,
-  indeterminate: `leading-[1.1] before:i-text-$color-text-inverted before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:i-border-$color-checkbox-border-active peer-indeterminate:before:i-bg-$color-checkbox-background-active peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-active-hover`,
+  indeterminate: `leading-[1.1] before:s-text-inverted before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:i-border-$color-checkbox-border-active peer-indeterminate:before:i-bg-$color-checkbox-background-active peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-active-hover`,
   labelDisabled: 'pointer-events-none',
   checkbox: 'before:rounded-2 hover:before:i-border-$color-checkbox-border-hover hover:before:i-bg-$color-checkbox-background-hover',
   checkboxChecked: 'peer-checked:before:i-border-$color-checkbox-border-active peer-checked:before:i-bg-$color-checkbox-background-active peer-checked:peer-hover:before:i-border-$color-checkbox-border-active-hover peer-checked:peer-hover:before:i-bg-$color-checkbox-background-active-hover',
@@ -395,7 +395,7 @@ export const toggle = {
   labelRadioBorder: 'i-border-$color-radio-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
-  radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-active peer-checked:i-bg-$color-buttongroup-primary-background-active peer-checked:i-border-$color-buttongroup-primary-border-active block relative text-14 font-bold cursor-pointer i-text-$color-buttongroup-primary-text text-center i-bg-$color-background border-2 i-border-$color-buttongroup-primary-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
+  radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-active peer-checked:i-bg-$color-buttongroup-primary-background-active peer-checked:i-border-$color-buttongroup-primary-border-active block relative text-14 font-bold cursor-pointer i-text-$color-buttongroup-primary-text text-center s-bg-default border-2 i-border-$color-buttongroup-primary-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
   radioButtonsJustified: 'flex!',
   radioButtonsGroupJustified: 'grow-1 shrink-0 basis-auto',
   radioButtonsLabelSmall: 'text-12 py-[5px]! px-[8px]!',
@@ -411,10 +411,10 @@ export const clickable = {
 
 export const combobox = {
   wrapper: 'relative',
-  combobox: 'absolute left-0 right-0 pb-8 rounded-8 i-bg-$color-background-interactive shadow-m',
+  combobox: 'absolute left-0 right-0 pb-8 rounded-8 s-bg-default shadow-m',
   textMatch: 'font-bold',
   listbox: 'm-0 p-0 select-none list-none',
-  option: 'block cursor-pointer p-8 hover:i-bg-$color-background-interactive-hover',
-  optionSelected: 'i-bg-$color-background-interactive-selected',
+  option: 'block cursor-pointer p-8 hover:s-bg-hover',
+  optionSelected: 's-bg-selected',
   a11y: 'sr-only',
 }
