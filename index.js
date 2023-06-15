@@ -218,6 +218,7 @@ export const expandable = {
   buttonBox: 'w-full text-left relative inline-flex! items-center ' + box.box,
   paddingTop: 'pt-0',
   title: 'flex justify-between items-center',
+  titleType: 'h4',
 };
 
 export const button = {
