@@ -15,6 +15,7 @@ export const attention = {
   arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
   arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
   content: 'last-child:mb-0',
+  notCallout: 'absolute z-50',
 };
 
 export const pageIndicator = {
@@ -27,9 +28,9 @@ export const pageIndicator = {
 
 export const ribbon = {
   base: 'py-4 px-8 border rounded-4 inline-flex last:mb-0',
-  info: ' i-bg-$color-badge-info-background i-text-$color-badge-info-text',
-  success: ' i-bg-$color-badge-positive-background i-text-$color-badge-positive-text',
-  warning: ' i-bg-$color-badge-warning-background i-text-$color-badge-warning-text',
+  info: 'i-bg-$color-badge-info-background i-text-$color-badge-info-text',
+  success: 'i-bg-$color-badge-positive-background i-text-$color-badge-positive-text',
+  warning: 'i-bg-$color-badge-warning-background i-text-$color-badge-warning-text',
   error: ' i-bg-$color-badge-negative-background i-text-$color-badge-negative-text',
   disabled: 'i-border-$color-badge-disabled-background i-bg-$color-badge-disabled-background i-text-$color-badge-disabled-text',
   sponsored: 'i-border-$color-badge-price-background i-bg-$color-badge-price-background i-text-$color-badge-price-text',
@@ -145,26 +146,27 @@ export const switchToggle = {
 };
 
 export const toaster = {
-  toasterContainer:
+  container:
     'fixed fixed-ios-fix bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
+  content: 'w-full',
   toaster:
     'grid f-grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
 };
 
 export const toast = {
-  toastWrapper: 'relative overflow-hidden w-full',
+  wrapper: 'relative overflow-hidden w-full',
   toast:
     'flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
-  toastPositive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
-  toastWarning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
-  toastNegative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
-  toastIcon: 'flex-shrink-0 rounded-full w-[16px] h-[16px] m-[8px] s-text-inverted',
-  toastIconPositive: 'i-text-$color-toast-positive-icon',
-  toastIconWarning: 'i-text-$color-toast-warning-icon',
-  toastIconNegative: 'i-bg-$color-toast-negative-icon',
-  toastIconLoading: 'animate-bounce',
-  toastContent: 'self-center mr-8 py-4 last-child:mb-0',
-  toastClose: 'ml-auto p-[8px]',
+  positive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
+  warning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
+  negative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
+  icon: 'flex-shrink-0 rounded-full w-[16px] h-[16px] m-[8px] s-text-inverted',
+  iconPositive: 'i-text-$color-toast-positive-icon',
+  iconWarning: 'i-text-$color-toast-warning-icon',
+  iconNegative: 'i-bg-$color-toast-negative-icon',
+  iconLoading: 'animate-bounce',
+  content: 'self-center mr-8 py-4 last-child:mb-0',
+  close: 'ml-auto p-[8px]',
 };
 
 export const tabs = {
@@ -180,6 +182,7 @@ export const tab = {
   tabActive: 'i-text-$color-tabs-text-active',
   icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
   iconUnderlinedActive: 'i-text-$color-tabs-text-active',
+  content: 'flex items-center justify-center gap-8',
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
   contentUnderlinedActive: 'i-text-$color-tabs-text-active',
 };
@@ -209,8 +212,12 @@ export const expandable = {
   chevronNonBox: 'relative left-8',
   chevronBox: 'absolute right-16',
   chevronExpanded: '-rotate-180',
+  expansion: 'overflow-hidden',
+  expansionNotExpanded: 'h-0 invisible',
   button: buttonReset + ' hover:underline focus:underline',
   buttonBox: 'w-full text-left relative inline-flex! items-center ' + box.box,
+  paddingTop: 'pt-0',
+  title: 'flex justify-between items-center',
 };
 
 export const button = {
