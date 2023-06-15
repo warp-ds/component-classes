@@ -1,3 +1,10 @@
+# [1.0.0-alpha.103](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.102...v1.0.0-alpha.103) (2023-06-15)
+
+
+### Bug Fixes
+
+* add classes ([#87](https://github.com/warp-ds/component-classes/issues/87)) ([f5c746e](https://github.com/warp-ds/component-classes/commit/f5c746eaf414e4bad54d1b32fb0b1e5faaa44957))
+
 # [1.0.0-alpha.102](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.101...v1.0.0-alpha.102) (2023-06-15)
 
 
