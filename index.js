@@ -407,7 +407,7 @@ export const toggle = {
   radioButtonsJustified: 'flex!',
   radioButtonsGroupJustified: 'grow-1 shrink-0 basis-auto',
   radioButtonsLabelSmall: 'text-12 py-[5px]! px-[8px]!',
-  icon: 'peer-checked:before:bg-center before:bg-[var(--w-form-check-mark)]',
+  icon: `peer-checked:before:bg-center before:bg-[url(var(--w-form-check-mark))]`,
   a11y: 'sr-only',
 };
 
