@@ -1,3 +1,10 @@
+# [1.0.0-alpha.106](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.105...v1.0.0-alpha.106) (2023-06-19)
+
+
+### Bug Fixes
+
+* **ribbon/tag:** update ribbon until we have correct border colors ([#92](https://github.com/warp-ds/component-classes/issues/92)) ([e5c8d76](https://github.com/warp-ds/component-classes/commit/e5c8d761943806b59f5e3b8e24d2152772b3a32e))
+
 # [1.0.0-alpha.105](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.104...v1.0.0-alpha.105) (2023-06-19)
 
 
