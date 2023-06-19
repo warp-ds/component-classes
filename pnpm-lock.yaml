@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^10.0.1
     version: 10.0.1(semantic-release@19.0.5)
   '@warp-ds/uno':
-    specifier: ^1.0.0-alpha.41
-    version: 1.0.0-alpha.41
+    specifier: ^1.0.0-alpha.45
+    version: 1.0.0-alpha.45
   cz-conventional-changelog:
     specifier: ^3.3.0
     version: 3.3.0
@@ -1110,8 +1110,8 @@ packages:
       - rollup
     dev: true
 
-  /@warp-ds/uno@1.0.0-alpha.41:
-    resolution: {integrity: sha512-Ni2c0Ec2SVAUwJqp+XPx8QUDXAMj+lzigBRrIqUZR+XhJ5AUNQKEkClY64o/eDlZWGLxbyJDsbUVkL7gQTxXGw==}
+  /@warp-ds/uno@1.0.0-alpha.45:
+    resolution: {integrity: sha512-Uemwf0EgmZV4En+aT74ZX6pw/+w+CLVhgTMV/4e6FouDq+e79MknNtHVpm/ktLHlUgb4fedFCChSxRExgU1/RQ==}
     dependencies:
       '@unocss/core': 0.50.8
       '@unocss/preset-mini': 0.50.8
