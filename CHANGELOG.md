@@ -1,3 +1,12 @@
+# [1.0.0-alpha.105](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.104...v1.0.0-alpha.105) (2023-06-19)
+
+
+### Bug Fixes
+
+* adjust arbitrary value after latest refactoring of the bg rule ([#89](https://github.com/warp-ds/component-classes/issues/89)) ([9c318e7](https://github.com/warp-ds/component-classes/commit/9c318e7c2af78f1e5461127ea09b9a6b9c2a41ae))
+* **package.json:** update unocss ([#91](https://github.com/warp-ds/component-classes/issues/91)) ([4c7e046](https://github.com/warp-ds/component-classes/commit/4c7e046204426e4f28791c734bd35591a0793854))
+* **toast:** fix color issues for icons ([#90](https://github.com/warp-ds/component-classes/issues/90)) ([a5301a1](https://github.com/warp-ds/component-classes/commit/a5301a16c0dee6aea62223d692659fc47a56db55))
+
 # [1.0.0-alpha.104](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.103...v1.0.0-alpha.104) (2023-06-15)
 
 
