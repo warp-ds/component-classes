@@ -1,3 +1,10 @@
+# [1.0.0-alpha.107](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.106...v1.0.0-alpha.107) (2023-06-20)
+
+
+### Bug Fixes
+
+* remove unnecessary classes ([#93](https://github.com/warp-ds/component-classes/issues/93)) ([6aaa016](https://github.com/warp-ds/component-classes/commit/6aaa016b8a1f47592141236189bd2342b1e2558c))
+
 # [1.0.0-alpha.106](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.105...v1.0.0-alpha.106) (2023-06-19)
 
 
