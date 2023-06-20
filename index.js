@@ -50,9 +50,9 @@ export const slider = {
   activeTrackDisabled:
     'i-bg-$color-slider-track-background-disabled pointer-events-none',
   thumb:
-    'absolute transition-shadow w-24 h-24 bottom-10 rounded-4',
+    'absolute transition-shadow w-24 h-24 bottom-10 rounded-4 outline-none',
   thumbEnabled:
-    'border-2 focusable slider-handle-outline-none i-shadow-$shadow-slider cursor-pointer i-bg-$color-slider-handle-background i-border-$color-slider-handle-border hover:i-bg-$color-slider-handle-background-hover hover:i-border-$color-slider-handle-border-hover hover:slider-handle-shadow-hover active:i-bg-$color-slider-handle-background-active active:i-border-$color-slider-handle-border-active active:slider-handle-shadow-active focus:slider-handle-shadow-hover focus:i-border-$color-slider-handle-border-hover focus:i-bg-$color-slider-handle-background-hover',
+    'border-2 i-shadow-$shadow-slider cursor-pointer i-bg-$color-slider-handle-background i-border-$color-slider-handle-border hover:i-bg-$color-slider-handle-background-hover hover:i-border-$color-slider-handle-border-hover hover:slider-handle-shadow-hover active:i-bg-$color-slider-handle-background-active active:i-border-$color-slider-handle-border-active active:slider-handle-shadow-active focus:slider-handle-shadow-hover focus:i-border-$color-slider-handle-border-hover focus:i-bg-$color-slider-handle-background-hover',
   thumbDisabled:
     'i-bg-$color-slider-handle-background-disabled cursor-disabled pointer-events-none',
 };
@@ -317,10 +317,10 @@ export const alert = {
 }
 
 export const input = {
-  default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable caret-current',
+  default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
   textArea: 'min-h-[42] sm:min-h-[45]',
   disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
-  invalid: 'focusable i-border-$color-input-border-error i-text-$color-input-text-error!',
+  invalid: 'i-border-$color-input-border-error i-text-$color-input-text-error!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
   placeholder: 'placeholder:s-text-placeholder',
   wrapper: 'relative',
@@ -329,9 +329,9 @@ export const input = {
 }
 
 export const select = {
-  default: 'block text-16 mb-0 leading-22 i-text-$color-select-text i-bg-$color-select-background i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active rounded-4 py-12 px-8 block border-1 w-full focusable appearance-none pr-32 cursor-pointer caret-current',
+  default: 'block text-16 mb-0 leading-22 i-text-$color-select-text i-bg-$color-select-background i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] appearance-none pr-32 cursor-pointer caret-current',
   disabled: 'i-bg-$color-select-background-disabled i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-text-$color-select-text-disabled pointer-events-none',
-  invalid: 'focusable i-border-$color-select-border-negative',
+  invalid: 'i-border-$color-select-border-negative',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none before:hidden',
   wrapper: 'relative',
   selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
@@ -352,7 +352,7 @@ export const helpText = {
 }
 
 const prefixSuffixWrapperBase =
-  'absolute top-0 bottom-0 flex justify-center items-center focusable ';
+  'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] ';
 
 export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
