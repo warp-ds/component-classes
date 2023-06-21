@@ -166,7 +166,7 @@ export const toast = {
   iconNegative: 'i-text-$color-toast-negative-icon',
   iconLoading: 'animate-bounce',
   content: 'self-center mr-8 py-4 last-child:mb-0',
-  close: 'ml-auto p-[8px]',
+  close: 'bg-transparent ml-auto p-[8px]',
 };
 
 export const tabs = {
