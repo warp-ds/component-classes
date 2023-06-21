@@ -70,7 +70,7 @@ export const box = {
 
 export const pill = {
   pill: 'flex items-center',
-  button: 'inline-flex items-center focusable text-12 transition-all',
+  button: 'inline-flex items-center focusable text-xs transition-all',
   suggestion: 'i-bg-$color-pill-suggestion-background hover:i-bg-$color-pill-suggestion-background-hover active:i-bg-$color-pill-suggestion-background-active i-text-$color-pill-suggestion-text font-bold',
   filter: 'i-bg-$color-pill-filter-background hover:i-bg-$color-pill-filter-background-hover active:i-bg-$color-pill-filter-background-active i-text-$color-pill-filter-text',
   label: 'pl-12 py-8 rounded-l-full',
@@ -147,10 +147,10 @@ export const switchToggle = {
 
 export const toaster = {
   container:
-    'fixed fixed-ios-fix bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
+    'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
   content: 'w-full',
   toaster:
-    'grid f-grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
+    'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
 };
 
 export const toast = {
@@ -160,7 +160,7 @@ export const toast = {
   positive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
   warning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
   negative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
-  icon: 'flex-shrink-0 rounded-full w-[16px] h-[16px] m-[8px]',
+  icon: 'shrink-0 rounded-full w-[16px] h-[16px] m-[8px]',
   iconPositive: 'i-text-$color-toast-positive-icon',
   iconWarning: 'i-text-$color-toast-warning-icon',
   iconNegative: 'i-text-$color-toast-negative-icon',
@@ -170,7 +170,7 @@ export const toast = {
 };
 
 export const tabs = {
-  tabContainer: 'mx-auto max-w-screen-md w-full grid f-grid relative',
+  tabContainer: 'mx-auto max-w-screen-md w-full grid relative',
   wunderbar:
     'absolute i-border-$color-tabs-border-active -bottom-0 border-b-4 transition-all',
   wrapperUnderlined:
@@ -178,7 +178,7 @@ export const tabs = {
 };
 
 export const tab = {
-  tab: 'grid f-grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
+  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
   tabActive: 'i-text-$color-tabs-text-active',
   icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
   iconUnderlinedActive: 'i-text-$color-tabs-text-active',
@@ -208,7 +208,7 @@ export const expandable = {
   expandableTitle: 'font-bold i-text-$color-expandable-title-text',
   expandableBox: 'i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
-  chevron: 'inline-block align-middle transform transition-transform transition-gpu i-text-$color-expandable-icon',
+  chevron: 'inline-block align-middle transform transition-transform transform-gpu i-text-$color-expandable-icon',
   chevronNonBox: 'relative left-8',
   chevronBox: 'absolute right-16',
   chevronExpanded: '-rotate-180',
@@ -242,7 +242,7 @@ export const button = {
   buttonLink:
     'leading-24 max-w-max focusable ease-in-out inline s-text-link active:underline hover:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
   // Sizestuff
-  buttonSmall: 'px-16 py-6 text-12 leading-16', // .button--small
+  buttonSmall: 'px-16 py-6 text-xs leading-xs', // .button--small
   buttonSmallOverride: 'py-8', // .button--small.button--primary, .button--small.button--destructive, .button--small.button--destructive-flat, .button--small.button--order, .button--small.button--quiet
   buttonSmallSecondary: 'py-6', // .button--small.button--secondary
   buttonSmallUtility: 'py-7 px-15', // .button--small.button--secondary
@@ -285,7 +285,7 @@ export const modal = {
   modal:
     'pb-safe-[32] i-shadow-$shadow-modal max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 i-bg-$color-modal-background flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
   content:
-    'block overflow-y-auto overflow-x-hidden last-child:mb-0 flex-grow shrink px-16 sm:px-32 relative',
+    'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end shrink-0 px-16 sm:px-32',
   transitionTitle: 'transition-all duration-300',
   transitionTitleCenter: 'justify-self-center',
@@ -317,7 +317,7 @@ export const alert = {
 }
 
 export const input = {
-  default: 'block text-16 mb-0 leading-22 i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
+  default: 'block text-m mb-0 leading-m i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
   textArea: 'min-h-[42] sm:min-h-[45]',
   disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
   invalid: 'i-border-$color-input-border-error i-text-$color-input-text-error!',
@@ -329,7 +329,7 @@ export const input = {
 }
 
 export const select = {
-  default: 'block text-16 mb-0 leading-22 i-text-$color-select-text i-bg-$color-select-background i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] appearance-none pr-32 cursor-pointer caret-current',
+  default: 'block text-m mb-0 leading-m i-text-$color-select-text i-bg-$color-select-background i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] appearance-none pr-32 cursor-pointer caret-current',
   disabled: 'i-bg-$color-select-background-disabled i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-text-$color-select-text-disabled pointer-events-none',
   invalid: 'i-border-$color-select-border-negative',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none before:hidden',
@@ -340,13 +340,13 @@ export const select = {
 }
 
 export const label = {
-    label: 'antialiased block relative text-14 font-bold pb-4 cursor-pointer i-text-$color-label-text',
+    label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer i-text-$color-label-text',
     labelInvalid: 'i-text-$color-label-text-negative',
-    optional: 'pl-8 font-normal text-14 i-text-$color-label-optional-text',
+    optional: 'pl-8 font-normal text-s i-text-$color-label-optional-text',
 }
 
 export const helpText = {
-    helpText: 'text-12 mt-4 block i-text-$color-helptext-text',
+    helpText: 'text-xs mt-4 block i-text-$color-helptext-text',
     helpTextValid: 'i-text-$color-helptext-text-positive',
     helpTextInvalid: 'i-text-$color-helptext-text-negative'
 }
@@ -358,14 +358,14 @@ export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
-  label: `${label.label} pb-0! text-12!`,
+  label: `${label.label} pb-0! text-xs!`,
 };
 
 export const prefix = {
   wrapper: prefixSuffixWrapperBase + 'left-0',
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
-  label: `${label.label} pb-0! text-12!`,
+  label: `${label.label} pb-0! text-xs!`,
 };
 
 export const breadcrumbs = {
@@ -384,7 +384,7 @@ export const toggle = {
   inputDisabled: 'pointer-events-none',
   focusable: 'peer-focus:focusable',
   focusableWithin: 'focus-within:focusable',
-  label: 'cursor-pointer text-16 i-text-$color-label-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
+  label: 'cursor-pointer text-m i-text-$color-label-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
   deadToggleLabel: '-mt-2',
   noContent: `before:content-[""]`,
   indeterminate: `leading-[1.1] before:s-text-inverted before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:i-border-$color-checkbox-border-active peer-indeterminate:before:i-bg-$color-checkbox-background-active peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-active-hover`,
@@ -401,10 +401,10 @@ export const toggle = {
   labelRadioBorder: 'i-border-$color-radio-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
-  radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-active peer-checked:i-bg-$color-buttongroup-primary-background-active peer-checked:i-border-$color-buttongroup-primary-border-active block relative text-14 font-bold cursor-pointer i-text-$color-buttongroup-primary-text text-center s-bg-default border-2 i-border-$color-buttongroup-primary-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
+  radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-active peer-checked:i-bg-$color-buttongroup-primary-background-active peer-checked:i-border-$color-buttongroup-primary-border-active block relative text-s font-bold cursor-pointer i-text-$color-buttongroup-primary-text text-center s-bg-default border-2 i-border-$color-buttongroup-primary-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
   radioButtonsJustified: 'flex!',
   radioButtonsGroupJustified: 'grow-1 shrink-0 basis-auto',
-  radioButtonsLabelSmall: 'text-12 py-[5px]! px-[8px]!',
+  radioButtonsLabelSmall: 'text-xs py-[5px]! px-[8px]!',
   icon: `peer-checked:before:bg-center before:bg-[url(var(--w-form-check-mark))]`,
   a11y: 'sr-only',
 };
