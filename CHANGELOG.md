@@ -1,3 +1,10 @@
+# [1.0.0-alpha.109](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.108...v1.0.0-alpha.109) (2023-06-21)
+
+
+### Bug Fixes
+
+* **toast:** add transperent bg to close icon in toast ([#96](https://github.com/warp-ds/component-classes/issues/96)) ([90b91c7](https://github.com/warp-ds/component-classes/commit/90b91c7a7f71541698d72b709c7f1f3c9705c2e2))
+
 # [1.0.0-alpha.108](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.107...v1.0.0-alpha.108) (2023-06-21)
 
 
