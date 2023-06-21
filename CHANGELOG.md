@@ -1,3 +1,10 @@
+# [1.0.0-alpha.108](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.107...v1.0.0-alpha.108) (2023-06-21)
+
+
+### Bug Fixes
+
+* fix outline for the input fields and use outline-none for slider ([#94](https://github.com/warp-ds/component-classes/issues/94)) ([d618400](https://github.com/warp-ds/component-classes/commit/d6184002d37839d961a57dd0de186c644644a49b))
+
 # [1.0.0-alpha.107](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.106...v1.0.0-alpha.107) (2023-06-20)
 
 
