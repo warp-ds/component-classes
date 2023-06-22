@@ -7,13 +7,15 @@
   "exports": {
     ".": "./index.js",
     "./components": "./dist/assets/components.css",
-    "./classes": "./classes.js"
+    "./classes": "./classes.js",
+    "./shortcuts": "./shortcuts.js"
   },
   "types": "./index.d.ts",
   "files": [
     "index.js",
     "dist/assets",
     "classes.js",
+    "shortcuts.js",
     "index.d.ts"
   ],
   "scripts": {
