@@ -1,3 +1,10 @@
+# [1.0.0-alpha.111](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.110...v1.0.0-alpha.111) (2023-06-26)
+
+
+### Features
+
+* add shortcuts for buttons ([#97](https://github.com/warp-ds/component-classes/issues/97)) ([194a67a](https://github.com/warp-ds/component-classes/commit/194a67aa865a07d191109db9c856e448ae1583e7))
+
 # [1.0.0-alpha.110](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.109...v1.0.0-alpha.110) (2023-06-22)
 
 
