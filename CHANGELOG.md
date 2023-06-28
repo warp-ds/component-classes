@@ -1,3 +1,10 @@
+# [1.0.0-alpha.112](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.111...v1.0.0-alpha.112) (2023-06-28)
+
+
+### Bug Fixes
+
+* use arbitrary values for leading-24 and 1.1 ([#98](https://github.com/warp-ds/component-classes/issues/98)) ([6823ab8](https://github.com/warp-ds/component-classes/commit/6823ab869c0bcaf2b2cb60ef939addd9f9e330fc))
+
 # [1.0.0-alpha.111](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.110...v1.0.0-alpha.111) (2023-06-26)
 
 
