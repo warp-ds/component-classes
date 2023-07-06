@@ -1,3 +1,10 @@
+# [1.0.0-alpha.113](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.112...v1.0.0-alpha.113) (2023-07-06)
+
+
+### Bug Fixes
+
+* **index.js:** add bg-transparent to clickableNotToggle ([#101](https://github.com/warp-ds/component-classes/issues/101)) ([71ec939](https://github.com/warp-ds/component-classes/commit/71ec9394fa1346e4850db5783881c5276c7fae07))
+
 # [1.0.0-alpha.112](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.111...v1.0.0-alpha.112) (2023-06-28)
 
 
