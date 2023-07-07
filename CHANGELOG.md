@@ -1,3 +1,10 @@
+# [1.0.0-alpha.115](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.114...v1.0.0-alpha.115) (2023-07-07)
+
+
+### Bug Fixes
+
+* prepare for stable FINN prod release ([#103](https://github.com/warp-ds/component-classes/issues/103)) ([a562fdf](https://github.com/warp-ds/component-classes/commit/a562fdf644a0fdadac2bc49a2405eccfa5340f74))
+
 # [1.0.0-alpha.114](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.113...v1.0.0-alpha.114) (2023-07-07)
 
 
