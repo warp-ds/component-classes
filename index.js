@@ -178,7 +178,7 @@ export const tabs = {
 };
 
 export const tab = {
-  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
+  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
   tabActive: 'i-text-$color-tabs-text-active',
   icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
   iconUnderlinedActive: 'i-text-$color-tabs-text-active',
@@ -240,7 +240,7 @@ export const button = {
   buttonPill:
     'font-bold leading-[24] max-w-max focusable justify-center transition-colors ease-in-out rounded-full! min-h-[44px] min-w-[44px] border-0! p-4 i-text-$color-button-pill-icon hover:i-text-$color-button-pill-icon-hover active:i-text-$color-button-pill-icon-active i-bg-$color-button-pill-background hover:i-bg-$color-button-pill-background-hover acive:i-bg-$color-button-pill-background-active inline-flex items-center justify-center hover:bg-clip-padding', // .button--pill   missing:  hover:background-color: rgba(var(--f-blue-600-rgb), 0.1) , and:  hover:border-color: hsla(0, 0%, 100%, 0.4);
   buttonLink:
-    'leading-[24] max-w-max focusable ease-in-out inline s-text-link active:underline hover:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
+    'leading-[24] max-w-max bg-transparent focusable ease-in-out inline s-text-link active:underline hover:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
   // Sizestuff
   buttonSmall: 'px-16 py-6 text-xs leading-xs', // .button--small
   buttonSmallOverride: 'py-8', // .button--small.button--primary, .button--small.button--destructive, .button--small.button--destructive-flat, .button--small.button--order, .button--small.button--quiet
@@ -352,7 +352,7 @@ export const helpText = {
 }
 
 const prefixSuffixWrapperBase =
-  'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] ';
+  'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] bg-transparent';
 
 export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
@@ -410,9 +410,10 @@ export const toggle = {
 };
 
 export const clickable = {
-  clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
-  clickableNotToggle: 'inset-0 absolute bg-transparent',
-  label: `px-12 ${label.label} py-8! cursor-pointer focusable focusable-inset`, 
+  toggle: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
+  label: `px-12 ${label.label} py-8! cursor-pointer focusable focusable-inset`,
+  buttonOrLink: 'bg-transparent focusable',
+  buttonOrLinkStretch: 'inset-0 absolute',
 }
 
 export const combobox = {
