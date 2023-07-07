@@ -355,14 +355,14 @@ const prefixSuffixWrapperBase =
   'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] bg-transparent';
 
 export const suffix = {
-  wrapper: prefixSuffixWrapperBase + 'right-0',
+  wrapper: `${prefixSuffixWrapperBase} right-0`,
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
   label: `${label.label} pb-0! text-xs!`,
 };
 
 export const prefix = {
-  wrapper: prefixSuffixWrapperBase + 'left-0',
+  wrapper: `${prefixSuffixWrapperBase} left-0`,
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
   label: `${label.label} pb-0! text-xs!`,
