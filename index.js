@@ -410,10 +410,10 @@ export const toggle = {
 };
 
 export const clickable = {
-  clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
-  clickableNotToggle: 'inset-0 absolute',
+  toggle: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
   label: `px-12 ${label.label} py-8! cursor-pointer focusable focusable-inset`,
-  button: 'bg-transparent focusable'
+  buttonOrLink: 'bg-transparent focusable',
+  buttonOrLinkStretch: 'inset-0 absolute',
 }
 
 export const combobox = {
