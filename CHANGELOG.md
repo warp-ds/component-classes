@@ -1,3 +1,10 @@
+# [1.0.0-alpha.114](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.113...v1.0.0-alpha.114) (2023-07-07)
+
+
+### Bug Fixes
+
+* clickable classses ([#102](https://github.com/warp-ds/component-classes/issues/102)) ([7a7a654](https://github.com/warp-ds/component-classes/commit/7a7a6543f83e602aaf3e8badbf57ffa8f2931483))
+
 # [1.0.0-alpha.113](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.112...v1.0.0-alpha.113) (2023-07-06)
 
 
