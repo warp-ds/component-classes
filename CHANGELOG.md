@@ -1,3 +1,10 @@
+# [1.0.0-alpha.116](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.115...v1.0.0-alpha.116) (2023-07-10)
+
+
+### Bug Fixes
+
+* **button:** set correct font-size and line-height on buttons ([#104](https://github.com/warp-ds/component-classes/issues/104)) ([03fba6e](https://github.com/warp-ds/component-classes/commit/03fba6e8f39359afa91af53e9570fbf4e80af7cc))
+
 # [1.0.0-alpha.115](https://github.com/warp-ds/component-classes/compare/v1.0.0-alpha.114...v1.0.0-alpha.115) (2023-07-07)
 
 
