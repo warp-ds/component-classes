@@ -242,7 +242,7 @@ export const button = {
   buttonLink:
     'leading-[24] max-w-max bg-transparent focusable ease-in-out inline s-text-link active:underline hover:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
   // Sizestuff
-  buttonSmall: 'px-16 py-6 text-xs leading-xs', // .button--small
+  buttonSmall: 'px-16 py-6 text-xs!', // .button--small
   buttonSmallOverride: 'py-8', // .button--small.button--primary, .button--small.button--destructive, .button--small.button--destructive-flat, .button--small.button--order, .button--small.button--quiet
   buttonSmallSecondary: 'py-6', // .button--small.button--secondary
   buttonSmallUtility: 'py-7 px-15', // .button--small.button--secondary
